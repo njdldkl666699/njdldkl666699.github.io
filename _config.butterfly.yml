@@ -12,6 +12,10 @@ nav:
 
 menu:
   首页: / || iconfont icon-mail
+  页面 || iconfont icon-menu:
+    归档: /archives/ || iconfont icon-calendar
+    标签: /tags/ || iconfont icon-tags
+    分类: /categories/ || iconfont icon-folder-open
   编程 || iconfont icon-menu:
     🛠️ C/C++: /ccpp/ || 
     ☕ Java: /java/ ||
@@ -53,7 +57,7 @@ code_blocks:
 # 格式:
 #   icon: 链接 || 描述 || 颜色
 social:
-  iconfont icon-github-fill: https://njdldkl666699.github.io/ || GitHub || "#hdhfbb"
+  iconfont icon-github-fill: https://njdldkl666699.github.io/ || GitHub || "#000000"
   iconfont icon-mail-fill: zhangle666699@qq.com || QQ邮箱 || "#000000"
 
 # --------------------------------------
@@ -68,7 +72,7 @@ avatar:
   # 头像图片链接
   img: /images/avatar.jpg
   # 是否启用头像效果
-  effect: true
+  effect: false
 
 # 禁用所有横幅图片
 disable_top_img: false
@@ -194,11 +198,13 @@ subtitle:
   source: false
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
+    - 你好，世界！
+    - Hello&nbsp;World&#33;
 
 # 首页文章佈局
 # 1: 行佈局
 # 2: 列布局
-index_layout: 1
+index_layout: 6
 
 # 在首页显示文章简介
 # 1: 描述
@@ -340,7 +346,7 @@ aside:
       # 按钮文本
       text: Follow Me
       # 按钮链接
-      link: https://github.com/xxxxxx
+      link: https://github.com/njdldkl666699
   card_announcement:
     # 是否显示公告卡片
     enable: true
@@ -1202,7 +1208,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_z7zb3klcr9n.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_d4nkdh0mk08.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
