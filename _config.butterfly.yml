@@ -11,7 +11,7 @@ nav:
   fixed: false
 
 menu:
-  首页: / || iconfont icon-mail
+  首页: / || iconfont icon-home
   页面 || iconfont icon-menu:
     归档: /archives/ || iconfont icon-calendar
     标签: /tags/ || iconfont icon-tags
@@ -57,8 +57,8 @@ code_blocks:
 # 格式:
 #   icon: 链接 || 描述 || 颜色
 social:
-  iconfont icon-github-fill: https://njdldkl666699.github.io/ || GitHub || "#000000"
-  iconfont icon-mail-fill: zhangle666699@qq.com || QQ邮箱 || "#000000"
+  iconfont icon-github-fill: https://github.com/njdldkl666699 || GitHub || "#000000"
+  iconfont icon-mail-fill: mailto:zhangle666699@qq.com || QQ邮箱 || "#000000"
 
 # --------------------------------------
 # 图片设置
