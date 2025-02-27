@@ -1,0 +1,2 @@
+- [x] _config.butterfly.yml subtitle enable
+- [x] 将首页图像文件大小压缩为1920*1080
