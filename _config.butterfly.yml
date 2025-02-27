@@ -607,14 +607,14 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use:
+  use: Gitalk
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
   # 如果设置为 true，评论计数将无效
   lazyload: false
   # 在文章顶部图片中显示评论计数
-  count: false
+  count: true
   # 在主页显示评论计数
   card_post_count: false
 
@@ -646,15 +646,16 @@ livere:
 # 官方文档：https://github.com/gitalk/gitalk
 gitalk:
   # GitHub 应用的客户端 ID
-  client_id:
+  client_id: Ov23liF5KdKxy8qkaEMj
   # GitHub 应用的客户端密钥
-  client_secret:
+  client_secret: 53e5c1b64fd943aa88bc123c64c021a35681d642
   # 存储评论的仓库名称
-  repo:
+  repo: njdldkl666699.github.io
   # 仓库拥有者的用户名
-  owner:
+  owner: njdldkl666699
   # 管理员用户名列表
-  admin:
+  admin: 
+    - njdldkl666699
   # 其他可选配置
   option:
 
@@ -927,26 +928,30 @@ display_mode: light
 # 美化文章内容的配置
 beautify:
   # 是否启用美化
-  enable: false
+  enable: true
   # 指定美化的范围 (site 或 post)
   field: post
   # 指定标题前缀图标，如 '\f0c1'
-  title-prefix-icon:
+  title-prefix-icon: '\f0c1'
   # 指定标题前缀图标的颜色，如 '#F47466'
-  title-prefix-icon-color:
+  title-prefix-icon-color: '#F47466'
 
 # 全局字体设置
 # 除非您知道它们的工作原理，否则不要修改以下设置
+# font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", 
+#   Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+# code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", 
+#   "Microsoft YaHei", sans-serif
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: "Segoe UI", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: Consolas, "Cascadia Mono", "Cascadia Code", "JetBrains Mono"
 
 # 网站标题和副标题的字体设置
 blog_title_font:
   font_link:
-  font-family:
+  font-family: "Segoe UI", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # 分隔符图标的设置
 hr_icon:
