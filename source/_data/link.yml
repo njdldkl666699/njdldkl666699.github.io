@@ -1,0 +1,23 @@
+- class_name: 框架
+  class_desc: 本站使用的框架
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://hexo.io/logo.svg
+      descr: 快速、简洁且高效的博客框架
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/favicon.ico
+      descr: Hexo 的一个简单而卡片化的 UI 设计主题
+
+- class_name: 社交媒体
+  class_desc: 个人的社交媒体账号
+  link_list:
+    - name: GitHub
+      link: https://github.com/njdldkl666699
+      avatar: https://github.githubassets.com/favicons/favicon.svg
+      descr: GitHub 个人主页
+    - name: 哔哩哔哩
+      link: https://space.bilibili.com/387516204
+      avatar: https://i0.hdslb.com/bfs/static/jinkela/long/images/favicon.ico
+      descr: 哔哩哔哩个人空间

@@ -4,7 +4,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo:
+  logo: /images/可乐头像.png
   # 是否显示标题
   display_title: true
   # 是否在滚动时显示文章标题
@@ -13,7 +13,14 @@ nav:
   fixed: false
 
 menu:
-  # 首页: / || fas fa-home
+  首页: / || iconfont icon-home
+  页面||iconfont icon-menu||hide:
+    归档: /archives/ || iconfont icon-archive
+    分类: /categories/ || iconfont icon-folder-open
+    标签: /tags/ || iconfont icon-tags
+  文档||iconfont icon-docs||hide: {}
+  网页收藏夹: / || iconfont icon-favorite
+  链接: /link/ || iconfont icon-link
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
   #   电影: /movies/ || fas fa-video
@@ -38,7 +45,7 @@ code_blocks:
   # 是否显示语言标签
   language: true
   # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
-  shrink: false
+  shrink: true
   # 是否显示全屏显示代码块按钮
   fullpage: false
 
@@ -46,35 +53,36 @@ code_blocks:
 # 格式:
 #   icon: 链接 || 描述 || 颜色
 social:
-
+  iconfont icon-github-fill: https://github.com/njdldkl666699 || GitHub || "#15191F"
+  iconfont icon-bilibili: https://space.bilibili.com/387516204 || 哔哩哔哩 || "#00A1D6"
 # --------------------------------------
 # 图片设置
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /img/favicon.png
+favicon: /images/可乐头像.png
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /images/南极大陆的可乐.jpg
   # 是否启用头像效果
-  effect: false
+  effect: true
 
 # 禁用所有横幅图片
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img:
+default_top_img: /images/card541b.png
 
 # 主页的横幅图片
-index_img:
+index_img: /images/card833b.png
 
 # 归档页的横幅图片
-archive_img:
+archive_img: /images/card585b.png
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img:
+tag_img: /images/card785a.png
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
@@ -82,7 +90,7 @@ tag_img:
 tag_per_img:
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
-category_img:
+category_img: /images/card974b.png
 
 # 分类页的横幅图片，可以为每个分类设置横幅图片
 # 格式:
@@ -95,11 +103,11 @@ footer_img: false
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: /images/card541b.png
 
 # 封面设置
 cover:
-  # 是否禁用封面
+  # 是否显示文章封面
   index_enable: true
   aside_enable: true
   archives_enable: true
@@ -108,6 +116,7 @@ cover:
   position: both
   # 当未设置封面时，显示默认封面
   default_cover:
+    - /images/card541b.png
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # 替换损坏的图片
@@ -120,9 +129,9 @@ error_img:
 # 简单的 404 页面
 error_404:
   # 是否启用 404 页面
-  enable: false
+  enable: true
   # 404 页面的副标题
-  subtitle: "Page Not Found"
+  subtitle: 页面未找到
   # 404 页面的卡片背景图片
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -131,9 +140,9 @@ post_meta:
   # 主页页面
   page:
     # 日期类型: created / updated / both
-    date_type: created
+    date_type: updated
     # 日期格式: date / relative
-    date_format: date
+    date_format: relative
     # 是否显示分类
     categories: true
     # 是否显示标签
@@ -169,7 +178,7 @@ index_top_img_height:
 # 首页的副标题设置
 subtitle:
   # 是否启用副标题
-  enable: false
+  enable: true
   # 是否启用打字机效果
   effect: true
   # 自定义 typed.js
@@ -185,11 +194,18 @@ subtitle:
   source: false
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
+    - 你好，世界！
+    - Hello, World!
+    - 欢迎来到可乐の博客小站
+    - Welcome to Cola's Blog
+    - 封面的人好漂亮啊（
+    - 不会是宵崎奏吧（
+    - 太可爱了wwwww
 
 # 首页文章佈局
 # 1: 行佈局
 # 2: 列布局
-index_layout: 1
+index_layout: 3
 
 # 在首页显示文章简介
 # 1: 描述
@@ -197,7 +213,7 @@ index_layout: 1
 # 3: 自动摘要（默认）
 # false: 不显示文章简介
 index_post_content:
-  method: 3
+  method: 2
   # 如果设置 method 为 2 或 3，需要配置长度
   length: 500
 
@@ -221,7 +237,7 @@ toc:
 
 post_copyright:
   # 是否启用版权声明
-  enable: true
+  enable: false
   # 是否进行文章 URL 解码
   decode: false
   # 作者链接
@@ -261,13 +277,13 @@ related_post:
   # 显示的文章数量
   limit: 6
   # 选择: created / updated
-  date_type: created
+  date_type: updated
 
 # 选择: 1 / 2 / false
 # 1: “下一篇文章”将链接到旧文章
 # 2: “下一篇文章”将链接到新文章
 # false: 禁用分页
-post_pagination: 1
+post_pagination: 2
 
 # 显示文章过期通知
 noticeOutdate:
@@ -288,11 +304,30 @@ noticeOutdate:
 footer:
   # 页脚导航栏配置
   nav:
+    - content:
+        - title: 页面
+          item:
+            - title: 归档
+              link: /archives/
+            - title: 分类
+              link: /categories/
+            - title: 标签
+              link: /tags/
+    - content:
+        - title: 其他
+          item:
+            # TODO 链接到收藏夹页面
+            - title: 网页收藏夹
+              link: /
+            - title: GitHub
+              link: https://github.com/njdldkl666699
+            - title: 哔哩哔哩
+              link: https://space.bilibili.com/387516204
   owner:
     # 是否启用所有者显示
     enable: true
     # 网站创建年份
-    since: 2019
+    since: 2024
   # 自定义文本
   custom_text:
   # 主题和框架的版权声明
@@ -332,11 +367,11 @@ aside:
       # 是否显示按钮
       enable: true
       # 按钮图标
-      icon: fab fa-github
+      icon: iconfont icon-github-fill
       # 按钮文本
       text: Follow Me
       # 按钮链接
-      link: https://github.com/xxxxxx
+      link: https://github.com/njdldkl666699
   card_announcement:
     # 是否显示公告卡片
     enable: true
@@ -374,7 +409,7 @@ aside:
     # 显示标签数量，0 表示显示所有
     limit: 40
     # 是否启用颜色
-    color: false
+    color: true
     # 标签排序方式：random/name/length
     orderby: random
     # 排序顺序：1 表示升序，-1 表示降序
@@ -382,7 +417,7 @@ aside:
     sort_order:
   card_archives:
     # 是否显示归档卡片
-    enable: true
+    enable: false
     # 归档类型：monthly / yearly
     type: monthly
     # 日期格式，例如：YYYY年MM月
@@ -403,7 +438,7 @@ aside:
     order: -1
   card_webinfo:
     # 是否显示网站信息卡片
-    enable: true
+    enable: false
     # 是否显示文章数量
     post_count: true
     # 是否显示最后推送日期
@@ -525,7 +560,7 @@ busuanzi:
 math:
   # 选择：mathjax, katex
   # 如果不需要数学公式，保持为空
-  use:
+  use: katex
   per_page: true
   hide_scrollbar: false
 
@@ -537,7 +572,7 @@ math:
 
   katex:
     # 启用复制 KaTeX 公式
-    copy_tex: false
+    copy_tex: true
 
 # --------------------------------------
 # 搜索设置
@@ -546,8 +581,8 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜索文章...
 
   # Algolia 搜索
   algolia_search:
@@ -579,7 +614,7 @@ search:
 share:
   # 选择：sharejs / addtoany
   # 如果不需要分享功能，保持为空
-  use: sharejs
+  use:
 
   # Share.js
   # https://github.com/overtrue/share.js
@@ -600,14 +635,14 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use:
+  use: Gitalk
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
   # 如果设置为 true，评论计数将无效
   lazyload: false
   # 在文章顶部图片中显示评论计数
-  count: false
+  count: true
   # 在主页显示评论计数
   card_post_count: false
 
@@ -639,15 +674,16 @@ livere:
 # 官方文档：https://github.com/gitalk/gitalk
 gitalk:
   # GitHub 应用的客户端 ID
-  client_id:
+  client_id: Ov23liF5KdKxy8qkaEMj
   # GitHub 应用的客户端密钥
-  client_secret:
+  client_secret: ec4e5e83f8a06c463c62cbda44089634ef14fb77
   # 存储评论的仓库名称
-  repo:
+  repo: https://njdldkl666699.github.io/
   # 仓库拥有者的用户名
-  owner:
+  owner: njdldkl666699
   # 管理员用户名列表
   admin:
+    - njdldkl666699
   # 其他可选配置
   option:
 
@@ -953,8 +989,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # 网站标题和副标题的字体设置
 blog_title_font:
@@ -1088,9 +1124,9 @@ abcjs:
 # https://github.com/mermaid-js/mermaid
 mermaid:
   # 是否启用 Mermaid
-  enable: false
+  enable: true
   # 使用代码块编写 Mermaid 图表
-  code_write: false
+  code_write: true
   # 内置主题: default / forest / dark / neutral
   theme:
     light: default
@@ -1221,7 +1257,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_6stwxr8y89t.css">
   bottom:
     # - <script src="xxxx"></script>
 

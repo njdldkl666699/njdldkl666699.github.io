@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ""
-description: ""
-keywords:
-author: John Doe
-language: en
+title: 可乐の博客小站
+subtitle: 你好，世界！
+description: 个人博客网站，记录生活、学习、文化、技术等各方面内容。
+keywords: ["博客", "个人网站", "技术", "生活", "学习", "文化"]
+author: 南极大陆的可乐
+language: zh-CN
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://njdldkl666699.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -50,10 +50,12 @@ highlight:
   tab_replace: ""
   wrap: true
   hljs: false
+  exclude_languages: ["mermaid"]
 prismjs:
   preprocess: true
   line_number: true
   tab_replace: ""
+  exclude_languages: ["mermaid"]
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
