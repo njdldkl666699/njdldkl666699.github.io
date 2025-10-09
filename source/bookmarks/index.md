@@ -366,13 +366,15 @@ layout: page
 			iconWrap.className = 'bookmark-card__icon';
 
 			const titleText = link.title || (link.url || '未命名链接');
-			if (link.icon) {
+			const iconUrl = resolveIconUrl(link.icon, link.url);
+			if (iconUrl) {
 				const img = document.createElement('img');
-				img.src = link.icon;
+				img.src = iconUrl;
 				img.alt = titleText;
 				img.addEventListener('error', function () {
 					iconWrap.innerHTML = '';
 					iconWrap.textContent = getFallbackText(titleText);
+          console.warn('Failed to load favicon:', iconUrl);
 				});
 				iconWrap.appendChild(img);
 			} else {
@@ -405,6 +407,28 @@ layout: page
 			if (!text) return '∞';
 			const matches = text.match(/\p{L}|\p{N}/u);
 			return matches ? matches[0].toUpperCase() : '∞';
+		}
+
+		function resolveIconUrl(rawIcon, linkUrl) {
+			const source = rawIcon || '';
+			const domainPath = extractDomainPath(source) || extractDomainPath(linkUrl || '');
+			if (!domainPath) {
+				return '';
+			}
+			return 'https://favicon.im/zh/' + domainPath;
+		}
+
+		function extractDomainPath(urlString) {
+			if (!urlString) {
+				return '';
+			}
+			try {
+				const url = new URL(urlString);
+				const path = url.pathname.replace(/^\/+/, '');
+				return path || url.host;
+			} catch (err) {
+				return urlString.replace(/^https?:\/\//i, '').replace(/^\/+/, '');
+			}
 		}
 	});
 </script>
