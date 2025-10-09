@@ -267,7 +267,7 @@ layout: page
 <script>
 	window.addEventListener('DOMContentLoaded', function () {
 		const container = document.getElementById('bookmark-root');
-		const JSON_PATH = '_data/pintree.json?v=' + Date.now();
+		const JSON_PATH = './pintree.json?v=' + Date.now();
 
 		fetch(JSON_PATH)
 			.then(function (response) {
