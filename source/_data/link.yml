@@ -9,6 +9,10 @@
       link: https://butterfly.js.org/
       avatar: https://butterfly.js.org/img/favicon.ico
       descr: Hexo 的一个简单而卡片化的 UI 设计主题
+    - name: Pintree
+      link: https://www.pintree.io/zh
+      avatar: https://www.pintree.io/favicons/favicon.ico
+      descr: 将浏览器书签转换为目录网站
 
 - class_name: 社交媒体
   class_desc: 个人的社交媒体账号
