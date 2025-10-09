@@ -19,7 +19,7 @@ menu:
     分类: /categories/ || iconfont icon-folder-open
     标签: /tags/ || iconfont icon-tags
   文档||iconfont icon-docs||hide: {}
-  网页收藏夹: / || iconfont icon-favorite
+  网页收藏夹: /bookmarks || iconfont icon-favorite
   链接: /link/ || iconfont icon-link
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
@@ -45,7 +45,7 @@ code_blocks:
   # 是否显示语言标签
   language: true
   # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
-  shrink: true
+  shrink: false
   # 是否显示全屏显示代码块按钮
   fullpage: false
 
@@ -67,7 +67,7 @@ avatar:
   # 头像图片链接
   img: /images/南极大陆的可乐.jpg
   # 是否启用头像效果
-  effect: true
+  effect: false
 
 # 禁用所有横幅图片
 disable_top_img: false
@@ -98,12 +98,12 @@ category_img: /images/card974b.png
 category_per_img:
 
 # 页脚的背景图片
-footer_img: false
+footer_img: transparent
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: /images/card541b.png
+background: /images/card289a.png
 
 # 封面设置
 cover:
@@ -116,7 +116,14 @@ cover:
   position: both
   # 当未设置封面时，显示默认封面
   default_cover:
+    - /images/card289a.png
+    - /images/card289b.png
+    - /images/card326b.png
     - /images/card541b.png
+    - /images/card585b.png
+    - /images/card785a.png
+    - /images/card833b.png
+    - /images/card974b.png
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # 替换损坏的图片
@@ -308,21 +315,20 @@ footer:
         - title: 页面
           item:
             - title: 归档
-              link: /archives/
+              url: /archives/
             - title: 分类
-              link: /categories/
+              url: /categories/
             - title: 标签
-              link: /tags/
+              url: /tags/
     - content:
         - title: 其他
           item:
-            # TODO 链接到收藏夹页面
             - title: 网页收藏夹
-              link: /
+              url: /bookmarks/
             - title: GitHub
-              link: https://github.com/njdldkl666699
+              url: https://github.com/njdldkl666699
             - title: 哔哩哔哩
-              link: https://space.bilibili.com/387516204
+              url: https://space.bilibili.com/387516204
   owner:
     # 是否启用所有者显示
     enable: true
@@ -374,7 +380,7 @@ aside:
       link: https://github.com/njdldkl666699
   card_announcement:
     # 是否显示公告卡片
-    enable: true
+    enable: false
     # 公告内容
     content: This is my Blog
   card_recent_post:
@@ -635,7 +641,7 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use: Gitalk
+  use: Giscus
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
@@ -674,16 +680,15 @@ livere:
 # 官方文档：https://github.com/gitalk/gitalk
 gitalk:
   # GitHub 应用的客户端 ID
-  client_id: Ov23liF5KdKxy8qkaEMj
+  client_id:
   # GitHub 应用的客户端密钥
-  client_secret: ec4e5e83f8a06c463c62cbda44089634ef14fb77
+  client_secret:
   # 存储评论的仓库名称
-  repo: https://njdldkl666699.github.io/
+  repo:
   # 仓库拥有者的用户名
-  owner: njdldkl666699
+  owner:
   # 管理员用户名列表
   admin:
-    - njdldkl666699
   # 其他可选配置
   option:
 
@@ -759,11 +764,11 @@ twikoo:
 # 官方文档：https://giscus.app/
 giscus:
   # 仓库地址
-  repo:
+  repo: njdldkl666699/njdldkl666699.github.io
   # 仓库 ID
-  repo_id:
+  repo_id: R_kgDOP-bMRQ
   # 分类 ID
-  category_id:
+  category_id: DIC_kwDOP-bMRc4CwbHv
   # 主题配置，light 为浅色主题，dark 为深色主题
   theme:
     light: light
