@@ -35,7 +35,7 @@ code_blocks:
   # 是否使用 Mac 风格
   macStyle: false
   # 代码块高度限制（单位: px）
-  height_limit: false
+  height_limit: 200
   # 是否自动换行
   word_wrap: false
 
@@ -48,6 +48,9 @@ code_blocks:
   shrink: false
   # 是否显示全屏显示代码块按钮
   fullpage: false
+
+# 代码高度限制（单位: px）
+highlight_height_limit: 400
 
 # 社交媒体链接
 # 格式:
