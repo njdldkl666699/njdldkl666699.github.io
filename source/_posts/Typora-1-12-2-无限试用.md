@@ -1,7 +1,7 @@
 ---
 title: Typora 1.12.2 无限试用
 date: 2025-11-07 15:28:52
-tags: [Markdown, 逆向]
+tags: [Markdown, 逆向, 前端]
 categories: [逆向]
 ---
 
@@ -55,7 +55,7 @@ categories: [逆向]
 
 书接上文，我们想到了`AppData\Roaming\Typora` 目录，那我们就去看看吧。
 
-{% asset_img 1.png %}
+![](./Typora-1-12-2-无限试用/1.png)
 
 这个目录下有很多文件和目录，但我们一眼看到了一个感兴趣的文件：`typora.log`。
 
@@ -63,7 +63,7 @@ categories: [逆向]
 
 `typora.log` 是日志文件，记录了 Typora 的运行日志，里面有一些有用的信息，上文提到的注册表读取时间的日志也在这里面。我们从打开一次 Typora 的时间开始看日志。
 
-{% asset_img 2.png %}
+![](./Typora-1-12-2-无限试用/2.png)
 
 看到了什么？[122]和[125] 进行了 prepDatabase，后面是`profile.data`和`history.data`。那这两个文件肯定不简单，我们稍后再说。
 
@@ -73,11 +73,11 @@ categories: [逆向]
 
 看名称，我们一定会迫不及待地打开`profile.data`，它最像是存储用户信息的文件。那我们就打开看看吧。
 
-{% asset_img 3.png %}
+![](./Typora-1-12-2-无限试用/3.png)
 
 用记事本打开，发现有点奇怪：它是文本文件，却只有长长的一行数字和小写字母。**注意到**，它的字母只有`a-f`，说明它是某种数据转换成了十六进制字符串。我们打开一个[在线十六进制转文本的网站](https://www.sojson.com/hexadecimal.html)，把它转换回来看看。
 
-{% asset_img 4.png %}
+![](./Typora-1-12-2-无限试用/4.png)
 
 结果非常的 Amazing 啊！转换出来的是一个 JSON 字符串，我们把它格式化一下看看。
 
