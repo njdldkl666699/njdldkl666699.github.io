@@ -19,11 +19,9 @@ menu:
     分类: /categories/ || iconfont icon-folder-open
     标签: /tags/ || iconfont icon-tags
   文档||iconfont icon-docs||hide: {}
-  网页收藏夹: /bookmarks || iconfont icon-favorite
+  试卷资料库: /exam-papers/ || iconfont icon-database
+  网页收藏夹: /bookmarks/ || iconfont icon-favorite
   链接: /link/ || iconfont icon-link
-  # 列表||fas fa-list:
-  #   音乐: /music/ || fas fa-music
-  #   电影: /movies/ || fas fa-video
 
 # --------------------------------------
 # 代码块设置
@@ -315,7 +313,7 @@ footer:
   # 页脚导航栏配置
   nav:
     - content:
-        - title: 页面
+        - title: 分类页面
           item:
             - title: 归档
               url: /archives/
@@ -323,11 +321,20 @@ footer:
               url: /categories/
             - title: 标签
               url: /tags/
+
+    - content:
+        - title: 仓库
+          item:
+            - title: 博客源码仓库
+              url: https://github.com/njdldkl666699/njdldkl666699.github.io
+            - title: 试卷资料库仓库
+              url: https://github.com/njdldkl666699/Another-NKUSE-Exams
+
     - content:
         - title: 其他
           item:
-            - title: 网页收藏夹
-              url: /bookmarks/
+            - title: 有用的链接
+              url: /link/
             - title: GitHub
               url: https://github.com/njdldkl666699
             - title: 哔哩哔哩
@@ -1265,7 +1272,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_6stwxr8y89t.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_duiktn9ilqu.css">
   bottom:
     # - <script src="xxxx"></script>
 
