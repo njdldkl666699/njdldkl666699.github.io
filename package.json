@@ -2,7 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "generate": "node ./source/exam-papers/generate-structure.js",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

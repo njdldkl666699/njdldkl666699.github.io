@@ -1,0 +1,389 @@
+---
+title: 📚 南开大学软件学院考试资料库
+date: 2025-11-13 16:03:57
+layout: page
+top_img: images/card974b.png
+description: 历年试卷与学习资料
+---
+
+<style>
+  .exam-library {
+    max-width: min(960px, 100%);
+    margin: 0 auto;
+    padding: clamp(1.5rem, 3vw, 2.25rem) clamp(1.25rem, 3vw, 2.1rem);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1.25rem, 2.5vw, 1.75rem);
+  }
+
+  .search-box {
+    width: 100%;
+    padding: 0.85rem 1.1rem;
+    border: 2px solid rgba(99, 102, 241, 0.2);
+    border-radius: 14px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background: rgba(255, 255, 255, 0.92);
+  }
+
+  .search-box:focus {
+    outline: none;
+    border-color: rgba(79, 70, 229, 0.65);
+    box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.25);
+  }
+
+  .exam-library__tree {
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    padding: clamp(1.1rem, 2vw, 1.5rem);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+
+  .folder {
+    margin-bottom: 6px;
+  }
+
+  .folder-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(248, 250, 252, 0.9);
+    border: 1px solid rgba(203, 213, 225, 0.75);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .folder-header:hover {
+    transform: translateX(4px);
+    border-color: rgba(99, 102, 241, 0.45);
+    box-shadow: 0 6px 16px rgba(79, 70, 229, 0.12);
+  }
+
+  .folder-icon {
+    margin-right: 12px;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+  }
+
+  .folder-icon.expanded {
+    transform: rotate(90deg);
+  }
+
+  .folder-name {
+    font-weight: 600;
+    color: #334155;
+    font-size: 1rem;
+  }
+
+  .folder-content {
+    margin-left: 24px;
+    margin-top: 10px;
+    border-left: 2px dashed rgba(203, 213, 225, 0.6);
+    padding-left: 18px;
+    display: none;
+  }
+
+  .folder-content.expanded {
+    display: block;
+  }
+
+  .file {
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .file:hover {
+    background: rgba(237, 242, 247, 0.85);
+    border-color: rgba(129, 140, 248, 0.75);
+    box-shadow: 0 10px 18px rgba(79, 70, 229, 0.14);
+    transform: translateX(4px);
+  }
+
+  .file-icon {
+    margin-right: 12px;
+    font-size: 14px;
+    color: rgba(100, 116, 139, 0.9);
+  }
+
+  .file-name {
+    color: #475569;
+    font-size: 0.95rem;
+  }
+
+  .file-extension {
+    margin-left: auto;
+    padding: 2px 9px;
+    background: rgba(226, 232, 240, 0.8);
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
+  .file-extension.pdf {
+    background: rgba(254, 215, 215, 0.9);
+    color: #c53030;
+  }
+
+  .file-extension.doc,
+  .file-extension.docx {
+    background: rgba(190, 227, 248, 0.9);
+    color: #1d4ed8;
+  }
+
+  .file-extension.txt {
+    background: rgba(198, 246, 213, 0.9);
+    color: #2f855a;
+  }
+
+  .file-extension.jpg,
+  .file-extension.jpeg,
+  .file-extension.png {
+    background: rgba(251, 182, 206, 0.9);
+    color: #b83280;
+  }
+
+  .loading {
+    text-align: center;
+    padding: 2.5rem 0;
+    color: rgba(71, 85, 105, 0.9);
+    font-size: 1rem;
+  }
+
+  @media (max-width: 720px) {
+    .folder-content {
+      border-left: none;
+      padding-left: 14px;
+    }
+
+    .file {
+      padding: 10px 14px;
+    }
+  }
+</style>
+
+<section class="exam-library">
+  <input type="text" class="search-box" placeholder="🔍 搜索文件或目录..." id="searchBox" />
+  <div id="fileTree" class="exam-library__tree">
+    <div class="loading">
+      <div>📁 正在加载目录结构...</div>
+    </div>
+  </div>
+</section>
+
+<script>
+  let fileStructure = null;
+
+  async function loadFileStructure() {
+    try {
+      const response = await fetch("file-structure.json");
+      if (!response.ok) {
+        throw new Error("HTTP " + response.status);
+      }
+
+      const dynamicStructure = await response.json();
+      if (!dynamicStructure || Object.keys(dynamicStructure).length === 0) {
+        throw new Error("文件结构为空");
+      }
+
+      fileStructure = dynamicStructure;
+      console.log("✅ 成功加载动态文件结构");
+      return true;
+    } catch (error) {
+      const fileTree = document.getElementById("fileTree");
+      fileTree.innerHTML = `
+				<div class="loading">
+					<div>⚠️ 无法加载目录结构，请稍后重试。</div>
+				</div>
+			`;
+      console.log("⚠️ 无法加载文件结构:", error);
+      return false;
+    }
+  }
+
+  function getFileExtension(filename) {
+    return filename.split(".").pop().toLowerCase();
+  }
+
+  function getFileIcon(extension) {
+    const icons = {
+      pdf: "📄",
+      doc: "📝",
+      docx: "📝",
+      txt: "📄",
+      jpg: "🖼️",
+      jpeg: "🖼️",
+      png: "🖼️",
+      gif: "🖼️",
+    };
+    return icons[extension] || "📄";
+  }
+
+  function createFileElement(fileName, path) {
+    const extension = getFileExtension(fileName);
+    const icon = getFileIcon(extension);
+
+    const fileDiv = document.createElement("div");
+    fileDiv.className = "file";
+    fileDiv.innerHTML = `
+						<span class="file-icon">${icon}</span>
+						<span class="file-name">${fileName}</span>
+						<span class="file-extension ${extension}">${extension.toUpperCase()}</span>
+				`;
+    fileDiv.onclick = () => {
+      const pathSegments = path.split("/");
+      const encodedSegments = pathSegments.map((segment) => (segment ? encodeURIComponent(segment) : segment));
+      const encodedPath = encodedSegments.join("/");
+      const githubUrl = `https://raw.kkgithub.com/njdldkl666699/Another-NKUSE-Exams/main/${encodedPath}`;
+      window.open(githubUrl, "_blank");
+    };
+
+    return fileDiv;
+  }
+
+  function createFolderElement(folderName, folderData, path = "") {
+    const folderDiv = document.createElement("div");
+    folderDiv.className = "folder";
+
+    const folderHeader = document.createElement("div");
+    folderHeader.className = "folder-header";
+    folderHeader.innerHTML = `
+						<span class="folder-icon">▶</span>
+						<span class="folder-name">📁 ${folderName}</span>
+				`;
+
+    const folderContent = document.createElement("div");
+    folderContent.className = "folder-content";
+    Object.keys(folderData).forEach((key) => {
+      if (key !== "files" && typeof folderData[key] === "object") {
+        let subPath = "";
+        if (path) {
+          subPath = `${path}/${folderName}`;
+        } else {
+          subPath = folderName;
+        }
+        const subFolder = createFolderElement(key, folderData[key], subPath);
+        folderContent.appendChild(subFolder);
+      }
+    });
+
+    if (folderData.files && Array.isArray(folderData.files)) {
+      folderData.files.forEach((fileName) => {
+        let filePath = "";
+        if (path) {
+          filePath = `${path}/${folderName}/${fileName}`;
+        } else {
+          filePath = `${folderName}/${fileName}`;
+        }
+        const fileElement = createFileElement(fileName, filePath);
+        folderContent.appendChild(fileElement);
+      });
+    }
+
+    folderHeader.onclick = () => {
+      const icon = folderHeader.querySelector(".folder-icon");
+      if (folderContent.classList.contains("expanded")) {
+        folderContent.classList.remove("expanded");
+        icon.classList.remove("expanded");
+      } else {
+        folderContent.classList.add("expanded");
+        icon.classList.add("expanded");
+      }
+    };
+
+    folderDiv.appendChild(folderHeader);
+    folderDiv.appendChild(folderContent);
+
+    return folderDiv;
+  }
+
+  function renderFileTree() {
+    if (!fileStructure) {
+      return;
+    }
+
+    const fileTree = document.getElementById("fileTree");
+    fileTree.innerHTML = "";
+
+    Object.keys(fileStructure).forEach((rootFolder) => {
+      const folderElement = createFolderElement(rootFolder, fileStructure[rootFolder]);
+      fileTree.appendChild(folderElement);
+    });
+  }
+
+  function searchFiles() {
+    const searchTerm = document.getElementById("searchBox").value.toLowerCase();
+    const allFiles = document.querySelectorAll(".file");
+    const allFolders = document.querySelectorAll(".folder");
+
+    if (!searchTerm) {
+      allFiles.forEach((file) => (file.style.display = "flex"));
+      allFolders.forEach((folder) => (folder.style.display = "block"));
+      return;
+    }
+
+    allFiles.forEach((file) => (file.style.display = "none"));
+    allFolders.forEach((folder) => (folder.style.display = "none"));
+
+    allFiles.forEach((file) => {
+      const fileName = file.querySelector(".file-name").textContent.toLowerCase();
+      if (fileName.includes(searchTerm)) {
+        file.style.display = "flex";
+        let parent = file.parentElement;
+        while (parent && !parent.classList.contains("exam-library__tree")) {
+          if (parent.classList.contains("folder")) {
+            parent.style.display = "block";
+            const content = parent.querySelector(".folder-content");
+            const icon = parent.querySelector(".folder-icon");
+            if (content && icon) {
+              content.classList.add("expanded");
+              icon.classList.add("expanded");
+            }
+          }
+          parent = parent.parentElement;
+        }
+      }
+    });
+
+    allFolders.forEach((folder) => {
+      const nameEl = folder.querySelector(".folder-name");
+      if (!nameEl) {
+        return;
+      }
+      const folderName = nameEl.textContent.toLowerCase();
+      if (folderName.includes(searchTerm)) {
+        folder.style.display = "block";
+        let parent = folder.parentElement;
+        while (parent && !parent.classList.contains("exam-library__tree")) {
+          if (parent.classList.contains("folder")) {
+            parent.style.display = "block";
+          }
+          parent = parent.parentElement;
+        }
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", async () => {
+    const loaded = await loadFileStructure();
+    const searchBox = document.getElementById("searchBox");
+
+    if (loaded) {
+      renderFileTree();
+      searchBox.addEventListener("input", searchFiles);
+    } else {
+      searchBox.disabled = true;
+      searchBox.placeholder = "⚠️ 无法加载目录结构";
+    }
+  });
+</script>
