@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--格式化输出
+        %date：日期，后跟日期格式
+        %-5level：级别从左显示5个字符宽度
+        %thread：线程名
+        %logger{36}：logger名称，最多显示36个字符
+        %M：方法名，会对性能有一定影响，因为 Logback 需要解析堆栈信息来获取方法名称
+        %msg：日志消息   %n：换行符  %throwable：异常信息
+        %highlight：高亮显示     %green：绿色显示     %boldGreen：加粗绿色显示
+    -->
+    <!-- CONSOLE 控制台日志 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) [%green(%thread)] %boldGreen(%logger{36}) - %highlight(%msg%n%throwable)
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- File是输出的方向通向文件的 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--过滤规则：INFO级别及以上的日志才会输出到文件-->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n%throwable</pattern>
+            <charset>utf-8</charset>
+        </encoder>
+        <!--日志输出路径-->
+        <!--指定日志文件拆分和压缩规则-->
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--通过指定压缩文件名称，来确定分割文件方式-->
+            <fileNamePattern>./log/%d{yyyy-MM-dd}.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <!--
+        level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，默认debug
+        <root>可以包含零个或多个<appender-ref>元素，标识这个输出位置将会被本日志级别控制。
+    -->
+    <root>
+        <appender-ref ref="CONSOLE"/>
+<!--        <appender-ref ref="FILE"/>-->
+    </root>
+</configuration>

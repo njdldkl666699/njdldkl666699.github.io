@@ -576,8 +576,8 @@ busuanzi:
 math:
   # 选择：mathjax, katex
   # 如果不需要数学公式，保持为空
-  use: katex
-  per_page: true
+  use: mathjax
+  per_page: false
   hide_scrollbar: false
 
   mathjax:

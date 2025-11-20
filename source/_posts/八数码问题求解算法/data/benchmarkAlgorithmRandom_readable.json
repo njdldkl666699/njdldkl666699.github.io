@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "warmupIterations": 2,
+    "warmupTime": "10 s",
+    "measurementIterations": 3,
+    "measurementTime": "5 min"
+  },
+  "results": [
+    {
+      "params": {
+        "algorithmType": "DFS"
+      },
+      "primaryMetric": {
+        "score": 161228.78615219425,
+        "scoreUnit": "us/op",
+        "rawData": [[165982.28572345132, 151512.66082836952, 166191.41190476192]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 49810315.127896726,
+        "scoreUnit": "B/op",
+        "rawData": [[51196102.21681416, 47753846.44926804, 50480996.717607975]]
+      },
+      "searchCount": {
+        "score": 64528.637981823005,
+        "scoreUnit": "#/op",
+        "rawData": [66334.17367256636, 61887.04038364462, 65364.69988925803]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "DFSLimitDepth"
+      },
+      "primaryMetric": {
+        "score": 1030870.5929801795,
+        "scoreUnit": "us/op",
+        "rawData": [[996603.5900924093, 1296202.2431034483, 799805.9457446808]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 1138159314.7771733,
+        "scoreUnit": "B/op",
+        "rawData": [[1121628116.2772276, 1419262348.586207, 873587479.468085]]
+      },
+      "searchCount": {
+        "score": 1611270.3878640432,
+        "scoreUnit": "#/op",
+        "rawData": [1588597.5478547856, 2008919.2327586208, 1236294.3829787234]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "IterativeDeepeningDFS"
+      },
+      "primaryMetric": {
+        "score": 6972699.306757327,
+        "scoreUnit": "us/op",
+        "rawData": [[3453785.096505747, 2860895.782857143, 14603417.040909091]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 7850094127.911429,
+        "scoreUnit": "B/op",
+        "rawData": [[3864279633.37931, 3241454619.8095236, 16444548130.545454]]
+      },
+      "searchCount": {
+        "score": 11131215.274866896,
+        "scoreUnit": "#/op",
+        "rawData": [5485297.517241379, 4595535.761904762, 23312812.545454547]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "BiDirectionalDFS"
+      },
+      "primaryMetric": {
+        "score": 2540.484196806294,
+        "scoreUnit": "us/op",
+        "rawData": [[2529.7013523431897, 2554.7241883683882, 2537.0270497073057]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 1931398.4945225788,
+        "scoreUnit": "B/op",
+        "rawData": [[1920514.7354620998, 1938405.8606830398, 1935274.8874225968]]
+      },
+      "searchCount": {
+        "score": 2335.0914189284613,
+        "scoreUnit": "#/op",
+        "rawData": [2321.90952039482, 2343.519052365253, 2339.8456840253107]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "BFS"
+      },
+      "primaryMetric": {
+        "score": 514509.11874490854,
+        "scoreUnit": "us/op",
+        "rawData": [[519664.52024221455, 404965.18516329286, 618897.6508292181]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 83176566.46374524,
+        "scoreUnit": "B/op",
+        "rawData": [[83005382.75432526, 70287278.97435898, 96237037.66255145]]
+      },
+      "searchCount": {
+        "score": 106120.79064221024,
+        "scoreUnit": "#/op",
+        "rawData": [105971.95155709343, 89037.71255060729, 123352.70781893004]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "BiDirectionalBFS"
+      },
+      "primaryMetric": {
+        "score": 1539.309757129314,
+        "scoreUnit": "us/op",
+        "rawData": [[1522.497055283884, 1562.1570056891594, 1533.2752104148983]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 1284888.6382001555,
+        "scoreUnit": "B/op",
+        "rawData": [[1272512.1932879363, 1301685.4970199643, 1280468.2242925663]]
+      },
+      "searchCount": {
+        "score": 1630.642601313142,
+        "scoreUnit": "#/op",
+        "rawData": [1614.6899847153036, 1652.2173811111575, 1625.0204381129645]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "AStarDijkstra"
+      },
+      "primaryMetric": {
+        "score": 1300643.821576232,
+        "scoreUnit": "us/op",
+        "rawData": [[700190.5107226108, 1727456.4505747126, 1474284.5034313726]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 87325042.98471373,
+        "scoreUnit": "B/op",
+        "rawData": [[50367801.54778555, 112229886.89655173, 99377440.50980392]]
+      },
+      "searchCount": {
+        "score": 104067.91125918255,
+        "scoreUnit": "#/op",
+        "rawData": [59979.755244755244, 134008.4540229885, 118215.52450980392]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "AStarManhattan"
+      },
+      "primaryMetric": {
+        "score": 12406.40136787018,
+        "scoreUnit": "us/op",
+        "rawData": [[13059.050069656074, 12017.51634018347, 12142.637693770996]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 14382172.95544169,
+        "scoreUnit": "B/op",
+        "rawData": [[15059145.795385284, 14010347.876136683, 14077025.194803093]]
+      },
+      "searchCount": {
+        "score": 1815.4633564201304,
+        "scoreUnit": "#/op",
+        "rawData": [1891.8194166303874, 1773.2222088691262, 1781.3484437608774]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "AStarMisplacedTiles"
+      },
+      "primaryMetric": {
+        "score": 121149.0567919211,
+        "scoreUnit": "us/op",
+        "rawData": [[134605.1547736441, 114940.31773266947, 113901.69786944971]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 25127043.744879257,
+        "scoreUnit": "B/op",
+        "rawData": [[26502876.765575975, 24409115.915741097, 24469138.553320684]]
+      },
+      "searchCount": {
+        "score": 16578.348703826807,
+        "scoreUnit": "#/op",
+        "rawData": [17380.209323173465, 16148.83071620069, 16206.006072106262]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "StupidSillyMonkey"
+      },
+      "primaryMetric": {
+        "score": 280430.77161579084,
+        "scoreUnit": "us/op",
+        "rawData": [[292107.0501271845, 279345.41202234634, 269839.8526978417]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 378075951.35353345,
+        "scoreUnit": "B/op",
+        "rawData": [[393123332.7067961, 377042923.1955307, 364061598.1582734]]
+      },
+      "searchCount": {
+        "score": 543207.1726086094,
+        "scoreUnit": "#/op",
+        "rawData": [564831.2242718446, 541717.0903165735, 523073.20323741005]
+      }
+    },
+    {
+      "params": {
+        "algorithmType": "SmartCleverMonkey"
+      },
+      "primaryMetric": {
+        "score": 831.1213806572177,
+        "scoreUnit": "us/op",
+        "rawData": [[829.8955865536633, 830.8425775067562, 832.6259779112338]]
+      },
+      "gc.alloc.rate.norm": {
+        "score": 939659.422227169,
+        "scoreUnit": "B/op",
+        "rawData": [[938479.8743856754, 939012.1406416742, 941486.2516541575]]
+      },
+      "searchCount": {
+        "score": 1174.929264725225,
+        "scoreUnit": "#/op",
+        "rawData": [1173.4553768457426, 1174.1204351742776, 1177.2119821556546]
+      }
+    }
+  ]
+}
