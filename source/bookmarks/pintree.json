@@ -90,6 +90,13 @@
                 "title": "每周科技补全 | VitePress",
                 "icon": "https://logo.clearbit.com/xuanli199.github.io",
                 "url": "https://xuanli199.github.io/weekly/"
+              },
+              {
+                "type": "link",
+                "addDate": 1762224467535,
+                "title": "李同学导航 | 优质实用网站网址导航大全",
+                "icon": "https://logo.clearbit.com/www.litxdh.com",
+                "url": "https://www.litxdh.com/"
               }
             ]
           },
@@ -232,6 +239,13 @@
             "title": "百度网盘",
             "icon": "https://logo.clearbit.com/pan.baidu.com",
             "url": "https://pan.baidu.com/disk/main#/index?category=all"
+          },
+          {
+            "type": "link",
+            "addDate": 1765002317049,
+            "title": "Sketchfab - The best 3D viewer on the web",
+            "icon": "https://logo.clearbit.com/sketchfab.com",
+            "url": "https://sketchfab.com/"
           }
         ]
       },
@@ -349,6 +363,13 @@
                 "title": "Hielke Maps",
                 "icon": "https://logo.clearbit.com/hielkemaps.com",
                 "url": "https://hielkemaps.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1764418186626,
+                "title": "Blessing Skin 手册 | Blessing Skin 用户手册",
+                "icon": "https://logo.clearbit.com/blessing.netlify.app",
+                "url": "https://blessing.netlify.app/"
               }
             ]
           },
@@ -424,10 +445,10 @@
           },
           {
             "type": "link",
-            "addDate": 1636253487583,
-            "title": "FC游戏/NES游戏_游戏模拟器_安卓苹果手游_FC游戏网",
-            "icon": "https://logo.clearbit.com/www.fcnes.com",
-            "url": "https://www.fcnes.com/"
+            "addDate": 1766300113924,
+            "title": "【FC】-FC游戏-NES-NES游戏-手机游戏-手机软件-FC游戏站",
+            "icon": "https://logo.clearbit.com/www.fcnes.net",
+            "url": "https://www.fcnes.net/"
           },
           {
             "type": "link",
@@ -498,6 +519,13 @@
             "title": "Neal.fun",
             "icon": "https://logo.clearbit.com/neal.fun",
             "url": "https://neal.fun/"
+          },
+          {
+            "type": "link",
+            "addDate": 1760360897371,
+            "title": "无尽合成",
+            "icon": "https://logo.clearbit.com/hc.tsdo.in",
+            "url": "https://hc.tsdo.in/"
           }
         ]
       },
@@ -516,7 +544,7 @@
                 "addDate": 1735916454322,
                 "title": "南开大学｜统一身份认证平台",
                 "icon": "https://logo.clearbit.com/iam.nankai.edu.cn",
-                "url": "https://iam.nankai.edu.cn/?next="
+                "url": "https://iam.nankai.edu.cn/"
               },
               {
                 "type": "link",
@@ -587,13 +615,6 @@
                 "title": "NKUSE.ICU",
                 "icon": "https://logo.clearbit.com/nkuse.icu",
                 "url": "https://nkuse.icu/#/"
-              },
-              {
-                "type": "link",
-                "addDate": 1750604324199,
-                "title": "南开大学软件学院考试资料库",
-                "icon": "https://logo.clearbit.com/njdldkl666699.github.io",
-                "url": "https://njdldkl666699.github.io/Another-NKUSE-Exams/"
               }
             ]
           },
@@ -660,10 +681,10 @@
               },
               {
                 "type": "link",
-                "addDate": 1757934152673,
-                "title": "南开大学软件学院电子书籍管理系统",
-                "icon": "https://logo.clearbit.com/58.250.74.98",
-                "url": "http://58.250.74.98:8003/BookHomePage.aspx"
+                "addDate": 1765197869177,
+                "title": "NK-I深度学习平台",
+                "icon": "https://logo.clearbit.com/10.10.1.208",
+                "url": "http://10.10.1.208:28080/#/home/frontpage"
               }
             ]
           },
@@ -818,6 +839,13 @@
                 "title": "中国知网",
                 "icon": "https://logo.clearbit.com/www.cnki.net",
                 "url": "https://www.cnki.net/"
+              },
+              {
+                "type": "link",
+                "addDate": 1765114166779,
+                "title": "01.【2026考研计算机】王道全程班！（持续更新）",
+                "icon": "https://logo.clearbit.com/pan.quark.cn",
+                "url": "https://pan.quark.cn/s/1ee5f6bd0bc6#/list/share"
               }
             ]
           },
@@ -867,13 +895,6 @@
                 "title": "网络画板|开放、共享的数学实验室",
                 "icon": "https://logo.clearbit.com/www.netpad.net.cn",
                 "url": "https://www.netpad.net.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1697604558697,
-                "title": "Microsoft数学求解器-数学问题求解器和计算器",
-                "icon": "https://logo.clearbit.com/mathsolver.microsoft.com",
-                "url": "https://mathsolver.microsoft.com/zh"
               }
             ]
           },
@@ -886,10 +907,10 @@
           },
           {
             "type": "link",
-            "addDate": 1757656356792,
+            "addDate": 1766300096153,
             "title": "Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。",
-            "icon": "https://logo.clearbit.com/zh.191954.online",
-            "url": "https://zh.191954.online/"
+            "icon": "https://logo.clearbit.com/zh.per101.ru",
+            "url": "https://zh.per101.ru/"
           },
           {
             "type": "link",
@@ -953,6 +974,69 @@
             "title": "文档",
             "children": [
               {
+                "type": "folder",
+                "addDate": 1763954897457,
+                "title": "AI",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1752405378161,
+                    "title": "AiDocZh - AI工具中文文档库",
+                    "icon": "https://logo.clearbit.com/aidoczh.com",
+                    "url": "https://aidoczh.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1759370845976,
+                    "title": "产品简介 - Dify Docs",
+                    "icon": "https://logo.clearbit.com/docs.dify.ai",
+                    "url": "https://docs.dify.ai/zh-hans/introduction"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1759379058195,
+                    "title": "🏡 Home | Open WebUI",
+                    "icon": "https://logo.clearbit.com/docs.openwebui.com",
+                    "url": "https://docs.openwebui.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1754380751418,
+                    "title": "Spring AI Alibaba 官网_快速构建 JAVA AI 应用",
+                    "icon": "https://logo.clearbit.com/java2ai.com",
+                    "url": "https://java2ai.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1754380404275,
+                    "title": "LangChain4j | LangChain4j",
+                    "icon": "https://logo.clearbit.com/docs.langchain4j.dev",
+                    "url": "https://docs.langchain4j.dev/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1751860018176,
+                    "title": "LangChain中文网 - 跟着LangChain学AI开发",
+                    "icon": "https://logo.clearbit.com/www.langchain.com.cn",
+                    "url": "https://www.langchain.com.cn/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1752669095909,
+                    "title": "LangGraph",
+                    "icon": "https://logo.clearbit.com/langchain-ai.github.io",
+                    "url": "https://langchain-ai.github.io/langgraph/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1752302368386,
+                    "title": "LangSmith",
+                    "icon": "https://logo.clearbit.com/smith.langchain.com",
+                    "url": "https://smith.langchain.com/"
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "addDate": 1613374799329,
                 "title": "菜鸟教程 - 学的不仅是技术，更是梦想！",
@@ -1003,48 +1087,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1752405378161,
-                "title": "AiDocZh - AI工具中文文档库",
-                "icon": "https://logo.clearbit.com/aidoczh.com",
-                "url": "https://aidoczh.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1751860018176,
-                "title": "LangChain中文网 - 跟着LangChain学AI开发",
-                "icon": "https://logo.clearbit.com/www.langchain.com.cn",
-                "url": "https://www.langchain.com.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1752669095909,
-                "title": "LangGraph",
-                "icon": "https://logo.clearbit.com/langchain-ai.github.io",
-                "url": "https://langchain-ai.github.io/langgraph/"
-              },
-              {
-                "type": "link",
-                "addDate": 1752302368386,
-                "title": "LangSmith",
-                "icon": "https://logo.clearbit.com/smith.langchain.com",
-                "url": "https://smith.langchain.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1754380404275,
-                "title": "LangChain4j | LangChain4j",
-                "icon": "https://logo.clearbit.com/docs.langchain4j.dev",
-                "url": "https://docs.langchain4j.dev/"
-              },
-              {
-                "type": "link",
-                "addDate": 1754380751418,
-                "title": "Spring AI Alibaba 官网_快速构建 JAVA AI 应用",
-                "icon": "https://logo.clearbit.com/java2ai.com",
-                "url": "https://java2ai.com/"
-              },
-              {
-                "type": "link",
                 "addDate": 1758728041120,
                 "title": "主页 - LearnOpenGL CN",
                 "icon": "https://logo.clearbit.com/learnopengl-cn.github.io",
@@ -1052,17 +1094,31 @@
               },
               {
                 "type": "link",
-                "addDate": 1759370845976,
-                "title": "产品简介 - Dify Docs",
-                "icon": "https://logo.clearbit.com/docs.dify.ai",
-                "url": "https://docs.dify.ai/zh-hans/introduction"
+                "addDate": 1763954871325,
+                "title": "Spring | 首页 - Spring 框架",
+                "icon": "https://logo.clearbit.com/springframework.org.cn",
+                "url": "https://springframework.org.cn/"
               },
               {
                 "type": "link",
-                "addDate": 1759379058195,
-                "title": "🏡 Home | Open WebUI",
-                "icon": "https://logo.clearbit.com/docs.openwebui.com",
-                "url": "https://docs.openwebui.com/"
+                "addDate": 1763955075689,
+                "title": "Spring | Home",
+                "icon": "https://logo.clearbit.com/spring.io",
+                "url": "https://spring.io/"
+              },
+              {
+                "type": "link",
+                "addDate": 1764167078878,
+                "title": "简介 | Logto docs",
+                "icon": "https://logo.clearbit.com/docs.logto.io",
+                "url": "https://docs.logto.io/zh-CN/introduction"
+              },
+              {
+                "type": "link",
+                "addDate": 1765879100799,
+                "title": "OI Wiki - OI Wiki",
+                "icon": "https://logo.clearbit.com/oi-wiki.org",
+                "url": "https://oi-wiki.org/"
               }
             ]
           },
@@ -1287,6 +1343,41 @@
                 "title": "本地https快速解决方案——mkcert - 简书",
                 "icon": "https://logo.clearbit.com/www.jianshu.com",
                 "url": "https://www.jianshu.com/p/7cb5c2cffaaa"
+              },
+              {
+                "type": "link",
+                "addDate": 1760615198466,
+                "title": "【准研一学习】狂肝15小时整理的Verilog语言入门知识_verilog语言学习-CSDN博客",
+                "icon": "https://logo.clearbit.com/blog.csdn.net",
+                "url": "https://blog.csdn.net/qq_42622433/article/details/126423119"
+              },
+              {
+                "type": "link",
+                "addDate": 1765275356908,
+                "title": "Perlin noise（柏林噪声） - 知乎",
+                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                "url": "https://zhuanlan.zhihu.com/p/721568930"
+              },
+              {
+                "type": "link",
+                "addDate": 1765275365282,
+                "title": "「Unity」基于柏林噪声的程序化地形生成 | Hmxs's Blog",
+                "icon": "https://logo.clearbit.com/hmxs.games",
+                "url": "https://hmxs.games/posts/12002/index.html"
+              },
+              {
+                "type": "link",
+                "addDate": 1765348003392,
+                "title": "Perlin噪声与Simplex噪声笔记 - 知乎",
+                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                "url": "https://zhuanlan.zhihu.com/p/240763739"
+              },
+              {
+                "type": "link",
+                "addDate": 1765699712576,
+                "title": "世界生成 - 中文 Minecraft Wiki",
+                "icon": "https://logo.clearbit.com/zh.minecraft.wiki",
+                "url": "https://zh.minecraft.wiki/w/%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90#%E5%8E%9F%E7%90%86"
               }
             ]
           },
@@ -1357,6 +1448,13 @@
                 "title": "Learn Git Branching",
                 "icon": "https://logo.clearbit.com/learngitbranching.js.org",
                 "url": "https://learngitbranching.js.org/?locale=zh_CN"
+              },
+              {
+                "type": "link",
+                "addDate": 1763547688425,
+                "title": "JMH Visualizer",
+                "icon": "https://logo.clearbit.com/jmh.morethan.io",
+                "url": "https://jmh.morethan.io/#details"
               }
             ]
           },
@@ -1518,6 +1616,13 @@
                 "title": "PostgreSQL: The world's most advanced open source database",
                 "icon": "https://logo.clearbit.com/www.postgresql.org",
                 "url": "https://www.postgresql.org/"
+              },
+              {
+                "type": "link",
+                "addDate": 1764167070656,
+                "title": "Logto：为开发者打造的现代认证基础设施",
+                "icon": "https://logo.clearbit.com/logto.io",
+                "url": "https://logto.io/zh-CN/"
               }
             ]
           },
@@ -1787,6 +1892,13 @@
               },
               {
                 "type": "link",
+                "addDate": 1760441988045,
+                "title": "免费clash节点|科学上网 - 免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子",
+                "icon": "https://logo.clearbit.com/clashgithub.com",
+                "url": "https://clashgithub.com/"
+              },
+              {
+                "type": "link",
                 "addDate": 1738575638383,
                 "title": "ITDOG - 在线ping_在线tcping_网站测速_HTTP测速_API测速_路由追踪_在线MTR_DNS查询_ITDOG-云邦畅想",
                 "icon": "https://logo.clearbit.com/www.itdog.cn",
@@ -1805,6 +1917,13 @@
                 "title": "PairDrop | Transfer Files Cross-Platform. No Setup, No Signup.",
                 "icon": "https://logo.clearbit.com/pairdrop.net",
                 "url": "https://pairdrop.net/"
+              },
+              {
+                "type": "link",
+                "addDate": 1759998826306,
+                "title": "Favicon.im: 即时网站图标获取器",
+                "icon": "https://logo.clearbit.com/favicon.im",
+                "url": "https://favicon.im/zh"
               }
             ]
           },
@@ -1856,13 +1975,6 @@
             "title": "草料二维码生成器",
             "icon": "https://logo.clearbit.com/cli.im",
             "url": "https://cli.im/"
-          },
-          {
-            "type": "link",
-            "addDate": 1746711423567,
-            "title": "VVQuest",
-            "icon": "https://logo.clearbit.com/zvv.quest",
-            "url": "https://zvv.quest/"
           },
           {
             "type": "link",
