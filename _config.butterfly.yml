@@ -74,16 +74,16 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img: /images/card541b.png
+default_top_img: /images/card541b.webp
 
 # 主页的横幅图片
-index_img: /images/card833b.png
+index_img: /images/card833b.webp
 
 # 归档页的横幅图片
-archive_img: /images/card585b.png
+archive_img: /images/card585b.webp
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img: /images/card785a.png
+tag_img: /images/card785a.webp
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
@@ -91,7 +91,7 @@ tag_img: /images/card785a.png
 tag_per_img:
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
-category_img: /images/card974b.png
+category_img: /images/card974b.webp
 
 # 分类页的横幅图片，可以为每个分类设置横幅图片
 # 格式:
@@ -104,7 +104,7 @@ footer_img: transparent
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: /images/card289a.png
+background: /images/card289a.webp
 
 # 封面设置
 cover:
@@ -117,14 +117,26 @@ cover:
   position: both
   # 当未设置封面时，显示默认封面
   default_cover:
-    - /images/card289a.png
-    - /images/card289b.png
-    - /images/card326b.png
-    - /images/card541b.png
-    - /images/card585b.png
-    - /images/card785a.png
-    - /images/card833b.png
-    - /images/card974b.png
+    - /images/card195a.webp
+    - /images/card195b.webp
+    - /images/card289a.webp
+    - /images/card289b.webp
+    - /images/card326b.webp
+    - /images/card458a.webp
+    - /images/card458b.webp
+    - /images/card487b.webp
+    - /images/card541b.webp
+    - /images/card585b.webp
+    - /images/card785a.webp
+    - /images/card833b.webp
+    - /images/card974b.webp
+    - /images/card1042b.webp
+    - /images/card1097a.webp
+    - /images/card1097b.webp
+    - /images/card1226a.webp
+    - /images/card1226b.webp
+    - /images/card1273a.webp
+    - /images/card1273b.webp
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # 替换损坏的图片

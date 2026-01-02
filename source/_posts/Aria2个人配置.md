@@ -3,6 +3,7 @@ title: Aria2个人配置
 date: 2025-12-12 21:36:04
 tags: [Aria2, 配置]
 categories: [工具]
+top_img: images/card458b.webp
 ---
 
 # Aria2 基本介绍

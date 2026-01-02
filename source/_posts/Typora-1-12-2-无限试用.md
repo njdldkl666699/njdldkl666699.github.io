@@ -3,6 +3,7 @@ title: Typora 1.12.2 无限试用
 date: 2025-11-07 15:28:52
 tags: [Markdown, 逆向, 前端]
 categories: [逆向]
+top_img: images/card487b.webp
 ---
 
 目前网上对 Typora 旧版本的破解或无限使用的方法大多已经失效，这里我列出这些旧版本的方法，并在最后给出一个新的方法，适用于 Typora 1.12.2 版本（目前最新版本）。未来 Typora 更新后，可能需要重新寻找新的方法。
