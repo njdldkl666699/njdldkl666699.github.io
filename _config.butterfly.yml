@@ -18,6 +18,7 @@ menu:
     归档: /archives/ || iconfont icon-archive
     分类: /categories/ || iconfont icon-folder-open
     标签: /tags/ || iconfont icon-tags
+    图库: /gallery-pjsk/ || iconfont icon-gallery
   文档||iconfont icon-docs||hide: {}
   试卷资料库: /exam-papers/ || iconfont icon-database
   网页收藏夹: /bookmarks/ || iconfont icon-favorite
@@ -1284,7 +1285,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_duiktn9ilqu.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_4yf1z56qllh.css">
   bottom:
     # - <script src="xxxx"></script>
 
