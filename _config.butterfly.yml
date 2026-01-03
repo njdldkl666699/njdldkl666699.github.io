@@ -1123,7 +1123,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # 如果不需要灯箱效果，请留空
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # 标签外挂设置
