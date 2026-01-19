@@ -79,13 +79,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1754187062225,
-                "title": "盘搜 - 基于TG频道的网盘搜索工具",
-                "icon": "https://logo.clearbit.com/pansou.jkai.de",
-                "url": "https://pansou.jkai.de/"
-              },
-              {
-                "type": "link",
                 "addDate": 1757759328276,
                 "title": "每周科技补全 | VitePress",
                 "icon": "https://logo.clearbit.com/xuanli199.github.io",
@@ -153,6 +146,13 @@
                 "title": "扣子，用 Agent 重塑生产力",
                 "icon": "https://logo.clearbit.com/www.coze.cn",
                 "url": "https://www.coze.cn/"
+              },
+              {
+                "type": "link",
+                "addDate": 1767689789298,
+                "title": "豆包官网",
+                "icon": "https://logo.clearbit.com/www.doubao.com",
+                "url": "https://www.doubao.com/product"
               }
             ]
           },
@@ -423,6 +423,34 @@
             ]
           },
           {
+            "type": "folder",
+            "addDate": 1767272088691,
+            "title": "在线运行",
+            "children": [
+              {
+                "type": "link",
+                "addDate": 1759370774885,
+                "title": "Neal.fun",
+                "icon": "https://logo.clearbit.com/neal.fun",
+                "url": "https://neal.fun/"
+              },
+              {
+                "type": "link",
+                "addDate": 1760360897371,
+                "title": "无尽合成",
+                "icon": "https://logo.clearbit.com/hc.tsdo.in",
+                "url": "https://hc.tsdo.in/"
+              },
+              {
+                "type": "link",
+                "addDate": 1767272071632,
+                "title": "Conway's Game of Life",
+                "icon": "https://logo.clearbit.com/conwaylife.com",
+                "url": "https://conwaylife.com/"
+              }
+            ]
+          },
+          {
             "type": "link",
             "addDate": 1613192927411,
             "title": "萌娘百科 万物皆可萌的百科全书 - zh.moegirl.org.cn",
@@ -515,17 +543,10 @@
           },
           {
             "type": "link",
-            "addDate": 1759370774885,
-            "title": "Neal.fun",
-            "icon": "https://logo.clearbit.com/neal.fun",
-            "url": "https://neal.fun/"
-          },
-          {
-            "type": "link",
-            "addDate": 1760360897371,
-            "title": "无尽合成",
-            "icon": "https://logo.clearbit.com/hc.tsdo.in",
-            "url": "https://hc.tsdo.in/"
+            "addDate": 1767271848652,
+            "title": "SMBX World",
+            "icon": "https://logo.clearbit.com/smbx.world",
+            "url": "https://smbx.world/"
           }
         ]
       },
@@ -615,6 +636,20 @@
                 "title": "NKUSE.ICU",
                 "icon": "https://logo.clearbit.com/nkuse.icu",
                 "url": "https://nkuse.icu/#/"
+              },
+              {
+                "type": "link",
+                "addDate": 1757431624561,
+                "title": "南开大学软件学院2023大三上期末考试各科回忆卷_南开大学软件学院大三-CSDN博客",
+                "icon": "https://logo.clearbit.com/blog.csdn.net",
+                "url": "https://blog.csdn.net/fukioston/article/details/135566575"
+              },
+              {
+                "type": "link",
+                "addDate": 1767694977918,
+                "title": "南开大学软件学院大三2024上期末考试回忆版_南开大学软件学院期末-CSDN博客",
+                "icon": "https://logo.clearbit.com/blog.csdn.net",
+                "url": "https://blog.csdn.net/soskskk/article/details/145082034"
               }
             ]
           },
@@ -842,6 +877,13 @@
               },
               {
                 "type": "link",
+                "addDate": 1758628218518,
+                "title": "直播学习",
+                "icon": "https://logo.clearbit.com/huiyi.enetedu.com",
+                "url": "https://huiyi.enetedu.com/LiveWacth/Index"
+              },
+              {
+                "type": "link",
                 "addDate": 1765114166779,
                 "title": "01.【2026考研计算机】王道全程班！（持续更新）",
                 "icon": "https://logo.clearbit.com/pan.quark.cn",
@@ -907,10 +949,10 @@
           },
           {
             "type": "link",
-            "addDate": 1766300096153,
+            "addDate": 1767420919996,
             "title": "Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。",
-            "icon": "https://logo.clearbit.com/zh.per101.ru",
-            "url": "https://zh.per101.ru/"
+            "icon": "https://logo.clearbit.com/zh.chris101.ru",
+            "url": "https://zh.chris101.ru/"
           },
           {
             "type": "link",
@@ -1059,13 +1101,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1751381897259,
-                "title": "FastAPI",
-                "icon": "https://logo.clearbit.com/fastapi.tiangolo.com",
-                "url": "https://fastapi.tiangolo.com/zh/"
-              },
-              {
-                "type": "link",
                 "addDate": 1751718669258,
                 "title": "组件总览 - Ant Design Vue",
                 "icon": "https://logo.clearbit.com/www.antdv.com",
@@ -1119,6 +1154,20 @@
                 "title": "OI Wiki - OI Wiki",
                 "icon": "https://logo.clearbit.com/oi-wiki.org",
                 "url": "https://oi-wiki.org/"
+              },
+              {
+                "type": "link",
+                "addDate": 1768815486320,
+                "title": "FastAPI",
+                "icon": "https://logo.clearbit.com/fastapi.tiangolo.com",
+                "url": "https://fastapi.tiangolo.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1768815531638,
+                "title": "MDN Web Docs",
+                "icon": "https://logo.clearbit.com/developer.mozilla.org",
+                "url": "https://developer.mozilla.org/zh-CN/"
               }
             ]
           },
@@ -1174,6 +1223,27 @@
                 "addDate": 1738244320955,
                 "title": "数据结构与算法",
                 "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1765275356908,
+                    "title": "Perlin noise（柏林噪声） - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/721568930"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1765275365282,
+                    "title": "「Unity」基于柏林噪声的程序化地形生成 | Hmxs's Blog",
+                    "icon": "https://logo.clearbit.com/hmxs.games",
+                    "url": "https://hmxs.games/posts/12002/index.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1765348003392,
+                    "title": "Perlin噪声与Simplex噪声笔记 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/240763739"
+                  },
                   {
                     "type": "link",
                     "addDate": 1729577117420,
@@ -1275,32 +1345,74 @@
                 ]
               },
               {
-                "type": "link",
-                "addDate": 1714232007530,
-                "title": "Git（分布式版本控制工具）_git _塞班呢的博客-CSDN博客",
-                "icon": "https://logo.clearbit.com/blog.csdn.net",
-                "url": "https://blog.csdn.net/a18307096730/article/details/124586216?spm=1001.2014.3001.5502"
-              },
-              {
-                "type": "link",
-                "addDate": 1717379421865,
-                "title": "如何解决：ssh: connect to host github.com port 22: Connection refused_ssh: connect to host port 22: connection refused-CSDN博客",
-                "icon": "https://logo.clearbit.com/blog.csdn.net",
-                "url": "https://blog.csdn.net/hjy_mysql/article/details/131596257"
-              },
-              {
-                "type": "link",
-                "addDate": 1740465518718,
-                "title": "【nvm】适合小白的 nvm 安装配置教程（Windows版） - 软柠柠吖 - 博客园",
-                "icon": "https://logo.clearbit.com/www.cnblogs.com",
-                "url": "https://www.cnblogs.com/rnny/p/17839190.html"
-              },
-              {
-                "type": "link",
-                "addDate": 1740990859972,
-                "title": "Jupyter notebook修改默认文件夹\\默认路径(亲测有效) - nicholasm4 - 博客园",
-                "icon": "https://logo.clearbit.com/www.cnblogs.com",
-                "url": "https://www.cnblogs.com/djma/p/16138884.html"
+                "type": "folder",
+                "addDate": 1767504340758,
+                "title": "软件",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1714232007530,
+                    "title": "Git（分布式版本控制工具）_git _塞班呢的博客-CSDN博客",
+                    "icon": "https://logo.clearbit.com/blog.csdn.net",
+                    "url": "https://blog.csdn.net/a18307096730/article/details/124586216?spm=1001.2014.3001.5502"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1717379421865,
+                    "title": "如何解决：ssh: connect to host github.com port 22: Connection refused_ssh: connect to host port 22: connection refused-CSDN博客",
+                    "icon": "https://logo.clearbit.com/blog.csdn.net",
+                    "url": "https://blog.csdn.net/hjy_mysql/article/details/131596257"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1740465518718,
+                    "title": "【nvm】适合小白的 nvm 安装配置教程（Windows版） - 软柠柠吖 - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/rnny/p/17839190.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1740990859972,
+                    "title": "Jupyter notebook修改默认文件夹\\默认路径(亲测有效) - nicholasm4 - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/djma/p/16138884.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1751788526008,
+                    "title": "TeX Live 2025 安装教程（Windows/WSL/Linux） - Eslzzyl - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/eslzzyl/p/17358405.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1757503217805,
+                    "title": "本地https快速解决方案——mkcert - 简书",
+                    "icon": "https://logo.clearbit.com/www.jianshu.com",
+                    "url": "https://www.jianshu.com/p/7cb5c2cffaaa"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1767504392822,
+                    "title": "VSCode Remote-ssh 远程连接Linux问题排查 - Jeffxue - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/Jeffxu/p/18740971"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1767504400973,
+                    "title": "vscode Remote-SSH如何保存密码自动登录远程服务器 - Bill Hu's Blog",
+                    "icon": "https://logo.clearbit.com/www.billhu.us",
+                    "url": "https://www.billhu.us/2022/12_vscode_remote_passwd/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1767504403336,
+                    "title": "解决：powershell无法使用ssh-copy-id命令 - octal_zhihao - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/zhouzhihao/p/17087666.html"
+                  }
+                ]
               },
               {
                 "type": "link",
@@ -1325,27 +1437,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1751788526008,
-                "title": "TeX Live 2025 安装教程（Windows/WSL/Linux） - Eslzzyl - 博客园",
-                "icon": "https://logo.clearbit.com/www.cnblogs.com",
-                "url": "https://www.cnblogs.com/eslzzyl/p/17358405.html"
-              },
-              {
-                "type": "link",
-                "addDate": 1757431624561,
-                "title": "南开大学软件学院2023大三上期末考试各科回忆卷_南开大学软件学院大三-CSDN博客",
-                "icon": "https://logo.clearbit.com/blog.csdn.net",
-                "url": "https://blog.csdn.net/fukioston/article/details/135566575"
-              },
-              {
-                "type": "link",
-                "addDate": 1757503217805,
-                "title": "本地https快速解决方案——mkcert - 简书",
-                "icon": "https://logo.clearbit.com/www.jianshu.com",
-                "url": "https://www.jianshu.com/p/7cb5c2cffaaa"
-              },
-              {
-                "type": "link",
                 "addDate": 1760615198466,
                 "title": "【准研一学习】狂肝15小时整理的Verilog语言入门知识_verilog语言学习-CSDN博客",
                 "icon": "https://logo.clearbit.com/blog.csdn.net",
@@ -1353,31 +1444,24 @@
               },
               {
                 "type": "link",
-                "addDate": 1765275356908,
-                "title": "Perlin noise（柏林噪声） - 知乎",
+                "addDate": 1767532010093,
+                "title": "修改Hyper-V动态端口范围 - 雪域熊猫 - 博客园",
+                "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                "url": "https://www.cnblogs.com/fansys/articles/13375989.html"
+              },
+              {
+                "type": "link",
+                "addDate": 1768115108510,
+                "title": "Java 值类详解：统一、托管、简洁 | Glavo",
+                "icon": "https://logo.clearbit.com/glavo.site",
+                "url": "https://glavo.site/blog/2026/01/08/valhalla/"
+              },
+              {
+                "type": "link",
+                "addDate": 1768564485442,
+                "title": "论文常用词汇i.e.，e.g.，etc.，viz.，et al.的前世今生 - 知乎",
                 "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
-                "url": "https://zhuanlan.zhihu.com/p/721568930"
-              },
-              {
-                "type": "link",
-                "addDate": 1765275365282,
-                "title": "「Unity」基于柏林噪声的程序化地形生成 | Hmxs's Blog",
-                "icon": "https://logo.clearbit.com/hmxs.games",
-                "url": "https://hmxs.games/posts/12002/index.html"
-              },
-              {
-                "type": "link",
-                "addDate": 1765348003392,
-                "title": "Perlin噪声与Simplex噪声笔记 - 知乎",
-                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
-                "url": "https://zhuanlan.zhihu.com/p/240763739"
-              },
-              {
-                "type": "link",
-                "addDate": 1765699712576,
-                "title": "世界生成 - 中文 Minecraft Wiki",
-                "icon": "https://logo.clearbit.com/zh.minecraft.wiki",
-                "url": "https://zh.minecraft.wiki/w/%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90#%E5%8E%9F%E7%90%86"
+                "url": "https://zhuanlan.zhihu.com/p/63640148"
               }
             ]
           },
@@ -1808,13 +1892,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1753003722611,
-                "title": "MusicFree | MusicFree",
-                "icon": "https://logo.clearbit.com/musicfree.catcat.work",
-                "url": "https://musicfree.catcat.work/"
-              },
-              {
-                "type": "link",
                 "addDate": 1758695552441,
                 "title": "LX Music - 一个免费&开源的音乐查找工具 | LX Music",
                 "icon": "https://logo.clearbit.com/lxmusic.toside.cn",
@@ -1924,6 +2001,20 @@
                 "title": "Favicon.im: 即时网站图标获取器",
                 "icon": "https://logo.clearbit.com/favicon.im",
                 "url": "https://favicon.im/zh"
+              },
+              {
+                "type": "link",
+                "addDate": 1767069434248,
+                "title": "用户中心 - DNSHE",
+                "icon": "https://logo.clearbit.com/my.dnshe.com",
+                "url": "https://my.dnshe.com/clientarea.php"
+              },
+              {
+                "type": "link",
+                "addDate": 1767156148392,
+                "title": "DigitalPlat Domain",
+                "icon": "https://logo.clearbit.com/domain.digitalplat.org",
+                "url": "https://domain.digitalplat.org/"
               }
             ]
           },
@@ -2043,10 +2134,10 @@
       },
       {
         "type": "link",
-        "addDate": 1758628218518,
-        "title": "直播学习",
-        "icon": "https://logo.clearbit.com/huiyi.enetedu.com",
-        "url": "https://huiyi.enetedu.com/LiveWacth/Index"
+        "addDate": 1767689812144,
+        "title": "豆包 - 字节跳动旗下 AI 智能助手",
+        "icon": "https://logo.clearbit.com/www.doubao.com",
+        "url": "https://www.doubao.com/chat"
       }
     ]
   }
