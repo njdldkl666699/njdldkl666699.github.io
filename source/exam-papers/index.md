@@ -194,12 +194,6 @@ description: 历年试卷与学习资料
       <div>📁 正在加载目录结构...</div>
     </div>
   </div>
-  <p class="exam-library__repo">
-    考试资料库仓库：
-    <a href="https://github.com/njdldkl666699/Another-NKUSE-Exams" target="_blank" rel="noopener noreferrer">
-      njdldkl666699/Another-NKUSE-Exams: 另一个南开软件期末考试资料库
-    </a>
-  </p>
 </section>
 
 <script>
@@ -408,3 +402,19 @@ description: 历年试卷与学习资料
     }
   });
 </script>
+
+# 有用的链接
+
+## 仓库链接
+
+- [Another-NKUSE-Exams](https://github.com/njdldkl666699/Another-NKUSE-Exams)
+- [NKU-SE-Exams](https://github.com/guohuan-xie/NKU-SE-Exams)
+- [NKUsoftwarehw](https://github.com/fukioston/NKUsoftwarehw)
+- [NKSoft24fallReview](https://github.com/ElectricMs/NKSoft24fallReview)
+- [NKUSE.ICU](https://github.com/NKUSE-ICU/NKUSE.ICU)
+
+## 其他
+
+- [NKUSE.ICU](https://nkuse.icu/#/)
+- [南开大学软件学院2023大三上期末考试各科回忆卷](https://blog.csdn.net/fukioston/article/details/135566575)
+- [南开大学软件学院大三2024上期末考试回忆版](https://blog.csdn.net/soskskk/article/details/145082034)
