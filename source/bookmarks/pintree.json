@@ -152,7 +152,14 @@
                 "addDate": 1767689789298,
                 "title": "豆包官网",
                 "icon": "https://logo.clearbit.com/www.doubao.com",
-                "url": "https://www.doubao.com/product"
+                "url": "https://www.doubao.com/about"
+              },
+              {
+                "type": "link",
+                "addDate": 1767689812144,
+                "title": "豆包 - 字节跳动旗下 AI 智能助手",
+                "icon": "https://logo.clearbit.com/www.doubao.com",
+                "url": "https://www.doubao.com/chat"
               }
             ]
           },
@@ -246,6 +253,13 @@
             "title": "Sketchfab - The best 3D viewer on the web",
             "icon": "https://logo.clearbit.com/sketchfab.com",
             "url": "https://sketchfab.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1770445566743,
+            "title": "PayPal: 账户首页",
+            "icon": "https://logo.clearbit.com/www.paypal.com",
+            "url": "https://www.paypal.com/myaccount/summary"
           }
         ]
       },
@@ -370,6 +384,13 @@
                 "title": "Blessing Skin 手册 | Blessing Skin 用户手册",
                 "icon": "https://logo.clearbit.com/blessing.netlify.app",
                 "url": "https://blessing.netlify.app/"
+              },
+              {
+                "type": "link",
+                "addDate": 1770556002531,
+                "title": "首页 | 南开大学Minecraft社区",
+                "icon": "https://logo.clearbit.com/mcnku.net",
+                "url": "https://mcnku.net/"
               }
             ]
           },
@@ -1168,6 +1189,20 @@
                 "title": "MDN Web Docs",
                 "icon": "https://logo.clearbit.com/developer.mozilla.org",
                 "url": "https://developer.mozilla.org/zh-CN/"
+              },
+              {
+                "type": "link",
+                "addDate": 1771486278397,
+                "title": "Sa-Token",
+                "icon": "https://logo.clearbit.com/sa-token.cc",
+                "url": "https://sa-token.cc/"
+              },
+              {
+                "type": "link",
+                "addDate": 1772105938981,
+                "title": "Go语言圣经 - Go语言圣经",
+                "icon": "https://logo.clearbit.com/golang-china.github.io",
+                "url": "https://golang-china.github.io/gopl-zh/"
               }
             ]
           },
@@ -1462,6 +1497,13 @@
                 "title": "论文常用词汇i.e.，e.g.，etc.，viz.，et al.的前世今生 - 知乎",
                 "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
                 "url": "https://zhuanlan.zhihu.com/p/63640148"
+              },
+              {
+                "type": "link",
+                "addDate": 1768892968716,
+                "title": "[林知/道] 讲明白Minimax算法和α-β剪枝 图解 伪代码 - 知乎",
+                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                "url": "https://zhuanlan.zhihu.com/p/658351019"
               }
             ]
           },
@@ -1539,6 +1581,13 @@
                 "title": "JMH Visualizer",
                 "icon": "https://logo.clearbit.com/jmh.morethan.io",
                 "url": "https://jmh.morethan.io/#details"
+              },
+              {
+                "type": "link",
+                "addDate": 1759386702466,
+                "title": "JSON Web Tokens - jwt.io",
+                "icon": "https://logo.clearbit.com/www.jwt.io",
+                "url": "https://www.jwt.io/"
               }
             ]
           },
@@ -1689,13 +1738,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1759386702466,
-                "title": "JSON Web Tokens - jwt.io",
-                "icon": "https://logo.clearbit.com/www.jwt.io",
-                "url": "https://www.jwt.io/"
-              },
-              {
-                "type": "link",
                 "addDate": 1759406710123,
                 "title": "PostgreSQL: The world's most advanced open source database",
                 "icon": "https://logo.clearbit.com/www.postgresql.org",
@@ -1707,6 +1749,13 @@
                 "title": "Logto：为开发者打造的现代认证基础设施",
                 "icon": "https://logo.clearbit.com/logto.io",
                 "url": "https://logto.io/zh-CN/"
+              },
+              {
+                "type": "link",
+                "addDate": 1770285297049,
+                "title": "全球云平台 | Cloudflare 中国官网 | Cloudflare",
+                "icon": "https://logo.clearbit.com/www.cloudflare-cn.com",
+                "url": "https://www.cloudflare-cn.com/enterprise/"
               }
             ]
           },
@@ -1754,10 +1803,10 @@
           },
           {
             "type": "link",
-            "addDate": 1749283589472,
+            "addDate": 1770294013703,
             "title": "可乐の博客小站 - 你好，世界！",
-            "icon": "https://logo.clearbit.com/njdldkl666699.github.io",
-            "url": "https://njdldkl666699.github.io/"
+            "icon": "https://logo.clearbit.com/blog.njdldkl666699.dpdns.org",
+            "url": "https://blog.njdldkl666699.dpdns.org/"
           },
           {
             "type": "link",
@@ -1899,17 +1948,24 @@
               },
               {
                 "type": "link",
-                "addDate": 1757662012234,
-                "title": "Motrix",
-                "icon": "https://logo.clearbit.com/motrix.app",
-                "url": "https://motrix.app/zh-CN/"
-              },
-              {
-                "type": "link",
                 "addDate": 1758697834331,
                 "title": "OpenList - OpenList 文档",
                 "icon": "https://logo.clearbit.com/doc.oplist.org",
                 "url": "https://doc.oplist.org/"
+              },
+              {
+                "type": "link",
+                "addDate": 1769489411807,
+                "title": "IRIUN Webcam - Transform Your Phone into a Webcam 2026",
+                "icon": "https://logo.clearbit.com/iriun.net",
+                "url": "https://iriun.net/"
+              },
+              {
+                "type": "link",
+                "addDate": 1770216141123,
+                "title": "AstrBot - 多平台大模型机器人基础设施",
+                "icon": "https://logo.clearbit.com/astrbot.app",
+                "url": "https://astrbot.app/"
               }
             ]
           },
@@ -2020,6 +2076,13 @@
           },
           {
             "type": "link",
+            "addDate": 1749554404769,
+            "title": "DeepL翻译：全世界最准确的翻译",
+            "icon": "https://logo.clearbit.com/www.deepl.com",
+            "url": "https://www.deepl.com/zh/translator"
+          },
+          {
+            "type": "link",
             "addDate": 1650554668146,
             "title": "A Real Me - 小数据研究所",
             "icon": "https://logo.clearbit.com/www.arealme.com",
@@ -2101,15 +2164,15 @@
             "title": "NEXT, ITELLYOU",
             "icon": "https://logo.clearbit.com/next.itellyou.cn",
             "url": "https://next.itellyou.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1770281530738,
+            "title": "美国身份证生成，美国人地址信息生成-世界各国身份信息、地址、信用卡生成器",
+            "icon": "https://logo.clearbit.com/shenfendaquan.com",
+            "url": "https://shenfendaquan.com/"
           }
         ]
-      },
-      {
-        "type": "link",
-        "addDate": 1749554404769,
-        "title": "DeepL翻译：全世界最准确的翻译",
-        "icon": "https://logo.clearbit.com/www.deepl.com",
-        "url": "https://www.deepl.com/zh/translator"
       },
       {
         "type": "link",
@@ -2134,10 +2197,10 @@
       },
       {
         "type": "link",
-        "addDate": 1767689812144,
-        "title": "豆包 - 字节跳动旗下 AI 智能助手",
-        "icon": "https://logo.clearbit.com/www.doubao.com",
-        "url": "https://www.doubao.com/chat"
+        "addDate": 1770344266408,
+        "title": "Cloudflare Dashboard | Manage Your Account",
+        "icon": "https://logo.clearbit.com/dash.cloudflare.com",
+        "url": "https://dash.cloudflare.com/"
       }
     ]
   }
