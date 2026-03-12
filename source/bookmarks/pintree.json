@@ -256,10 +256,10 @@
           },
           {
             "type": "link",
-            "addDate": 1770445566743,
-            "title": "PayPal: 账户首页",
+            "addDate": 1772765983460,
+            "title": "安全海淘国际支付平台_安全收款外贸平台-PayPal CN",
             "icon": "https://logo.clearbit.com/www.paypal.com",
-            "url": "https://www.paypal.com/myaccount/summary"
+            "url": "https://www.paypal.com/c2/home"
           }
         ]
       },
@@ -440,6 +440,13 @@
                 "title": "首页 | Sekai Viewer",
                 "icon": "https://logo.clearbit.com/sekai.best",
                 "url": "https://sekai.best/"
+              },
+              {
+                "type": "link",
+                "addDate": 1772613610050,
+                "title": "Moesekai (原Snowy SekaiViewer)",
+                "icon": "https://logo.clearbit.com/snowyviewer.exmeaning.com",
+                "url": "https://snowyviewer.exmeaning.com/"
               }
             ]
           },
@@ -1327,6 +1334,13 @@
                     "title": "C++(数据结构与算法):53---平衡搜索树之B-树_51CTO博客_数据结构树的算法",
                     "icon": "https://logo.clearbit.com/blog.51cto.com",
                     "url": "https://blog.51cto.com/u_15346415/5222005"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1768892968716,
+                    "title": "[林知/道] 讲明白Minimax算法和α-β剪枝 图解 伪代码 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/658351019"
                   }
                 ]
               },
@@ -1500,10 +1514,10 @@
               },
               {
                 "type": "link",
-                "addDate": 1768892968716,
-                "title": "[林知/道] 讲明白Minimax算法和α-β剪枝 图解 伪代码 - 知乎",
+                "addDate": 1773291318143,
+                "title": "Windows 安装 uv 并指定安装目录 - 知乎",
                 "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
-                "url": "https://zhuanlan.zhihu.com/p/658351019"
+                "url": "https://zhuanlan.zhihu.com/p/1978747476925227917"
               }
             ]
           },
@@ -1966,6 +1980,13 @@
                 "title": "AstrBot - 多平台大模型机器人基础设施",
                 "icon": "https://logo.clearbit.com/astrbot.app",
                 "url": "https://astrbot.app/"
+              },
+              {
+                "type": "link",
+                "addDate": 1773233034400,
+                "title": "NoneBot",
+                "icon": "https://logo.clearbit.com/nonebot.dev",
+                "url": "https://nonebot.dev/"
               }
             ]
           },
