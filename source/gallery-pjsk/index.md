@@ -1,6 +1,7 @@
 ---
 title: 世界计划图库
 date: 2026-01-02 21:06:05
+top_img: images/card458b.webp
 ---
 
 为了加快网站加载速度，图库中的图片也使用 WebP 格式。如需查看原始卡面图片，请访问[Sekai Viewer](https://sekai.best/)。

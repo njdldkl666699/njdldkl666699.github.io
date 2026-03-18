@@ -19,9 +19,9 @@ menu:
     分类: /categories/ || iconfont icon-folder-open
     标签: /tags/ || iconfont icon-tags
     图库: /gallery-pjsk/ || iconfont icon-gallery
-  文档||iconfont icon-docs||hide: {}
+    试卷资料库: /exam-papers/ || iconfont icon-database
   歌单列表: /playlists/ || iconfont icon-gedan
-  试卷资料库: /exam-papers/ || iconfont icon-database
+  Kanade帮助文档: /2026/03/18/Kanade-Bot-帮助文档/ || iconfont icon-help
   网页收藏夹: /bookmarks/ || iconfont icon-favorite
   链接: /link/ || iconfont icon-link
 
@@ -1288,7 +1288,7 @@ css_prefix: true
 inject:
   head:
     - <script src="./live2d/autoload.js"></script>
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_7gh5dtdphg.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_isc3ciaqdrl.css">
   bottom:
     # - <script src="xxxx"></script>
 

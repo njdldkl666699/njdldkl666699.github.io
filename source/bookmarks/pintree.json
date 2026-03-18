@@ -1045,29 +1045,29 @@
             "children": [
               {
                 "type": "folder",
-                "addDate": 1763954897457,
-                "title": "AI",
+                "addDate": 1773313069992,
+                "title": "Java",
                 "children": [
                   {
                     "type": "link",
-                    "addDate": 1752405378161,
-                    "title": "AiDocZh - AI工具中文文档库",
-                    "icon": "https://logo.clearbit.com/aidoczh.com",
-                    "url": "https://aidoczh.com/"
+                    "addDate": 1763954871325,
+                    "title": "Spring | 首页 - Spring 框架",
+                    "icon": "https://logo.clearbit.com/springframework.org.cn",
+                    "url": "https://springframework.org.cn/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1759370845976,
-                    "title": "产品简介 - Dify Docs",
-                    "icon": "https://logo.clearbit.com/docs.dify.ai",
-                    "url": "https://docs.dify.ai/zh-hans/introduction"
+                    "addDate": 1763955075689,
+                    "title": "Spring | Home",
+                    "icon": "https://logo.clearbit.com/spring.io",
+                    "url": "https://spring.io/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1759379058195,
-                    "title": "🏡 Home | Open WebUI",
-                    "icon": "https://logo.clearbit.com/docs.openwebui.com",
-                    "url": "https://docs.openwebui.com/"
+                    "addDate": 1771486278397,
+                    "title": "Sa-Token",
+                    "icon": "https://logo.clearbit.com/sa-token.cc",
+                    "url": "https://sa-token.cc/"
                   },
                   {
                     "type": "link",
@@ -1082,27 +1082,69 @@
                     "title": "LangChain4j | LangChain4j",
                     "icon": "https://logo.clearbit.com/docs.langchain4j.dev",
                     "url": "https://docs.langchain4j.dev/"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1773312916616,
+                "title": "Python",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1773233034400,
+                    "title": "NoneBot",
+                    "icon": "https://logo.clearbit.com/nonebot.dev",
+                    "url": "https://nonebot.dev/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1751860018176,
-                    "title": "LangChain中文网 - 跟着LangChain学AI开发",
-                    "icon": "https://logo.clearbit.com/www.langchain.com.cn",
-                    "url": "https://www.langchain.com.cn/"
+                    "addDate": 1773312896128,
+                    "title": "uv 中文文档",
+                    "icon": "https://logo.clearbit.com/uv.doczh.com",
+                    "url": "https://uv.doczh.com/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1752669095909,
-                    "title": "LangGraph",
-                    "icon": "https://logo.clearbit.com/langchain-ai.github.io",
-                    "url": "https://langchain-ai.github.io/langgraph/"
+                    "addDate": 1768815486320,
+                    "title": "FastAPI",
+                    "icon": "https://logo.clearbit.com/fastapi.tiangolo.com",
+                    "url": "https://fastapi.tiangolo.com/"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1763954897457,
+                "title": "AI",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1773313034385,
+                    "title": "Home - Docs by LangChain",
+                    "icon": "https://logo.clearbit.com/docs.langchain.com",
+                    "url": "https://docs.langchain.com/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1752302368386,
-                    "title": "LangSmith",
-                    "icon": "https://logo.clearbit.com/smith.langchain.com",
-                    "url": "https://smith.langchain.com/"
+                    "addDate": 1752405378161,
+                    "title": "AiDocZh - AI工具中文文档库",
+                    "icon": "https://logo.clearbit.com/aidoczh.com",
+                    "url": "https://aidoczh.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1759379058195,
+                    "title": "🏡 Home | Open WebUI",
+                    "icon": "https://logo.clearbit.com/docs.openwebui.com",
+                    "url": "https://docs.openwebui.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1759370845976,
+                    "title": "产品简介 - Dify Docs",
+                    "icon": "https://logo.clearbit.com/docs.dify.ai",
+                    "url": "https://docs.dify.ai/zh-hans/introduction"
                   }
                 ]
               },
@@ -1115,17 +1157,17 @@
               },
               {
                 "type": "link",
-                "addDate": 1749280253757,
-                "title": "cppreference.com",
-                "icon": "https://logo.clearbit.com/en.cppreference.com",
-                "url": "https://en.cppreference.com/"
+                "addDate": 1764167078878,
+                "title": "简介 | Logto docs",
+                "icon": "https://logo.clearbit.com/docs.logto.io",
+                "url": "https://docs.logto.io/zh-CN/introduction"
               },
               {
                 "type": "link",
-                "addDate": 1749280237915,
-                "title": "cppreference.cn - C++参考手册",
-                "icon": "https://logo.clearbit.com/cppreference.cn",
-                "url": "https://cppreference.cn/w/"
+                "addDate": 1772105938981,
+                "title": "Go语言圣经 - Go语言圣经",
+                "icon": "https://logo.clearbit.com/golang-china.github.io",
+                "url": "https://golang-china.github.io/gopl-zh/"
               },
               {
                 "type": "link",
@@ -1157,38 +1199,10 @@
               },
               {
                 "type": "link",
-                "addDate": 1763954871325,
-                "title": "Spring | 首页 - Spring 框架",
-                "icon": "https://logo.clearbit.com/springframework.org.cn",
-                "url": "https://springframework.org.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1763955075689,
-                "title": "Spring | Home",
-                "icon": "https://logo.clearbit.com/spring.io",
-                "url": "https://spring.io/"
-              },
-              {
-                "type": "link",
-                "addDate": 1764167078878,
-                "title": "简介 | Logto docs",
-                "icon": "https://logo.clearbit.com/docs.logto.io",
-                "url": "https://docs.logto.io/zh-CN/introduction"
-              },
-              {
-                "type": "link",
                 "addDate": 1765879100799,
                 "title": "OI Wiki - OI Wiki",
                 "icon": "https://logo.clearbit.com/oi-wiki.org",
                 "url": "https://oi-wiki.org/"
-              },
-              {
-                "type": "link",
-                "addDate": 1768815486320,
-                "title": "FastAPI",
-                "icon": "https://logo.clearbit.com/fastapi.tiangolo.com",
-                "url": "https://fastapi.tiangolo.com/"
               },
               {
                 "type": "link",
@@ -1199,17 +1213,17 @@
               },
               {
                 "type": "link",
-                "addDate": 1771486278397,
-                "title": "Sa-Token",
-                "icon": "https://logo.clearbit.com/sa-token.cc",
-                "url": "https://sa-token.cc/"
+                "addDate": 1749280253757,
+                "title": "cppreference.com",
+                "icon": "https://logo.clearbit.com/en.cppreference.com",
+                "url": "https://en.cppreference.com/"
               },
               {
                 "type": "link",
-                "addDate": 1772105938981,
-                "title": "Go语言圣经 - Go语言圣经",
-                "icon": "https://logo.clearbit.com/golang-china.github.io",
-                "url": "https://golang-china.github.io/gopl-zh/"
+                "addDate": 1749280237915,
+                "title": "cppreference.cn - C++参考手册",
+                "icon": "https://logo.clearbit.com/cppreference.cn",
+                "url": "https://cppreference.cn/w/"
               }
             ]
           },
@@ -1257,6 +1271,34 @@
                     "title": "64位时间戳实现-CSDN博客",
                     "icon": "https://logo.clearbit.com/blog.csdn.net",
                     "url": "https://blog.csdn.net/xinghongduo/article/details/9388633"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1700182140159,
+                    "title": "VS程序打包（使用InstallerProjects制作安装包）、自定义安装程序类、不用卸载旧包直接覆盖升级_installer projects-CSDN博客",
+                    "icon": "https://logo.clearbit.com/blog.csdn.net",
+                    "url": "https://blog.csdn.net/Tanasha114/article/details/109779001"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1727274057725,
+                    "title": "NSIS安装包_signjing的博客-CSDN博客",
+                    "icon": "https://logo.clearbit.com/blog.csdn.net",
+                    "url": "https://blog.csdn.net/signjing/category_1182262.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1727270581209,
+                    "title": "互联网软件的安装包界面设计",
+                    "icon": "https://logo.clearbit.com/www.360doc.com",
+                    "url": "http://www.360doc.com/content/17/0323/23/26636126_639606227.shtml"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1727275253275,
+                    "title": "Inno Setup入门",
+                    "icon": "https://logo.clearbit.com/www.360doc.com",
+                    "url": "http://www.360doc.com/userhome/4221543"
                   }
                 ]
               },
@@ -1346,43 +1388,36 @@
               },
               {
                 "type": "folder",
-                "addDate": 1738244374599,
-                "title": "打包",
+                "addDate": 1773659105735,
+                "title": "Java",
                 "children": [
                   {
                     "type": "link",
-                    "addDate": 1700182140159,
-                    "title": "VS程序打包（使用InstallerProjects制作安装包）、自定义安装程序类、不用卸载旧包直接覆盖升级_installer projects-CSDN博客",
-                    "icon": "https://logo.clearbit.com/blog.csdn.net",
-                    "url": "https://blog.csdn.net/Tanasha114/article/details/109779001"
+                    "addDate": 1768115108510,
+                    "title": "Java 值类详解：统一、托管、简洁 | Glavo",
+                    "icon": "https://logo.clearbit.com/glavo.site",
+                    "url": "https://glavo.site/blog/2026/01/08/valhalla/"
                   },
                   {
                     "type": "link",
-                    "addDate": 1727274057725,
-                    "title": "NSIS安装包_signjing的博客-CSDN博客",
-                    "icon": "https://logo.clearbit.com/blog.csdn.net",
-                    "url": "https://blog.csdn.net/signjing/category_1182262.html"
+                    "addDate": 1745302826399,
+                    "title": "swagger3.0使用及踩坑 - strongmore - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/strongmore/p/18106597#autoid-2-1-0"
                   },
                   {
                     "type": "link",
-                    "addDate": 1727270581209,
-                    "title": "互联网软件的安装包界面设计",
-                    "icon": "https://logo.clearbit.com/www.360doc.com",
-                    "url": "http://www.360doc.com/content/17/0323/23/26636126_639606227.shtml"
+                    "addDate": 1747143609527,
+                    "title": "教程：使用 Swing 构建用户界面 | IntelliJ IDEA 文档",
+                    "icon": "https://logo.clearbit.com/www.jetbrains.com",
+                    "url": "https://www.jetbrains.com/zh-cn/help/idea/2025.1/design-gui-using-swing.html"
                   },
                   {
                     "type": "link",
-                    "addDate": 1727275253275,
-                    "title": "Inno Setup入门",
-                    "icon": "https://logo.clearbit.com/www.360doc.com",
-                    "url": "http://www.360doc.com/userhome/4221543"
-                  },
-                  {
-                    "type": "link",
-                    "addDate": 1747903708589,
-                    "title": "Jpackage-制作无需预装Java环境的Jar可执行程序 - 未读代码 - SegmentFault 思否",
-                    "icon": "https://logo.clearbit.com/segmentfault.com",
-                    "url": "https://segmentfault.com/a/1190000044693072"
+                    "addDate": 1773390577989,
+                    "title": "IntelliJ IDEA 搭建安卓开发环境 - 简书",
+                    "icon": "https://logo.clearbit.com/www.jianshu.com",
+                    "url": "https://www.jianshu.com/p/a47740e7760a"
                   },
                   {
                     "type": "link",
@@ -1390,6 +1425,13 @@
                     "title": "idea swing gui设计后用mvn打包的pom配置 - 花开如梦 - 博客园",
                     "icon": "https://logo.clearbit.com/www.cnblogs.com",
                     "url": "https://www.cnblogs.com/ruber/p/16358364.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1747903708589,
+                    "title": "Jpackage-制作无需预装Java环境的Jar可执行程序 - 未读代码 - SegmentFault 思否",
+                    "icon": "https://logo.clearbit.com/segmentfault.com",
+                    "url": "https://segmentfault.com/a/1190000044693072"
                   }
                 ]
               },
@@ -1404,13 +1446,6 @@
                     "title": "Git（分布式版本控制工具）_git _塞班呢的博客-CSDN博客",
                     "icon": "https://logo.clearbit.com/blog.csdn.net",
                     "url": "https://blog.csdn.net/a18307096730/article/details/124586216?spm=1001.2014.3001.5502"
-                  },
-                  {
-                    "type": "link",
-                    "addDate": 1717379421865,
-                    "title": "如何解决：ssh: connect to host github.com port 22: Connection refused_ssh: connect to host port 22: connection refused-CSDN博客",
-                    "icon": "https://logo.clearbit.com/blog.csdn.net",
-                    "url": "https://blog.csdn.net/hjy_mysql/article/details/131596257"
                   },
                   {
                     "type": "link",
@@ -1442,6 +1477,27 @@
                   },
                   {
                     "type": "link",
+                    "addDate": 1773291318143,
+                    "title": "Windows 安装 uv 并指定安装目录 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/1978747476925227917"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1773659962462,
+                "title": "Linux",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1717379421865,
+                    "title": "如何解决：ssh: connect to host github.com port 22: Connection refused_ssh: connect to host port 22: connection refused-CSDN博客",
+                    "icon": "https://logo.clearbit.com/blog.csdn.net",
+                    "url": "https://blog.csdn.net/hjy_mysql/article/details/131596257"
+                  },
+                  {
+                    "type": "link",
                     "addDate": 1767504392822,
                     "title": "VSCode Remote-ssh 远程连接Linux问题排查 - Jeffxue - 博客园",
                     "icon": "https://logo.clearbit.com/www.cnblogs.com",
@@ -1460,6 +1516,27 @@
                     "title": "解决：powershell无法使用ssh-copy-id命令 - octal_zhihao - 博客园",
                     "icon": "https://logo.clearbit.com/www.cnblogs.com",
                     "url": "https://www.cnblogs.com/zhouzhihao/p/17087666.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1773459438337,
+                    "title": "终端命令神器--Screen命令详解。助力Unix/Linux使用和管理 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/405968623"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1773659490193,
+                    "title": "提升命令行使用体验──tmux 终端复用 - LUG @ USTC",
+                    "icon": "https://logo.clearbit.com/lug.ustc.edu.cn",
+                    "url": "https://lug.ustc.edu.cn/planet/2025/07/how-to-use-tmux/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1773659935201,
+                    "title": "1分钟掌握tmux使用 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/667646001"
                   }
                 ]
               },
@@ -1469,20 +1546,6 @@
                 "title": "频繁通知A字“出现了问题，无法安装功能。” - Microsoft Community",
                 "icon": "https://logo.clearbit.com/answers.microsoft.com",
                 "url": "https://answers.microsoft.com/zh-hans/windows/forum/all/%E9%A2%91%E7%B9%81%E9%80%9A%E7%9F%A5a%E5%AD%97/804fac73-6909-4fc9-9239-5f445302ba67?page=3"
-              },
-              {
-                "type": "link",
-                "addDate": 1745302826399,
-                "title": "swagger3.0使用及踩坑 - strongmore - 博客园",
-                "icon": "https://logo.clearbit.com/www.cnblogs.com",
-                "url": "https://www.cnblogs.com/strongmore/p/18106597#autoid-2-1-0"
-              },
-              {
-                "type": "link",
-                "addDate": 1747143609527,
-                "title": "教程：使用 Swing 构建用户界面 | IntelliJ IDEA 文档",
-                "icon": "https://logo.clearbit.com/www.jetbrains.com",
-                "url": "https://www.jetbrains.com/zh-cn/help/idea/2025.1/design-gui-using-swing.html"
               },
               {
                 "type": "link",
@@ -1500,24 +1563,10 @@
               },
               {
                 "type": "link",
-                "addDate": 1768115108510,
-                "title": "Java 值类详解：统一、托管、简洁 | Glavo",
-                "icon": "https://logo.clearbit.com/glavo.site",
-                "url": "https://glavo.site/blog/2026/01/08/valhalla/"
-              },
-              {
-                "type": "link",
                 "addDate": 1768564485442,
                 "title": "论文常用词汇i.e.，e.g.，etc.，viz.，et al.的前世今生 - 知乎",
                 "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
                 "url": "https://zhuanlan.zhihu.com/p/63640148"
-              },
-              {
-                "type": "link",
-                "addDate": 1773291318143,
-                "title": "Windows 安装 uv 并指定安装目录 - 知乎",
-                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
-                "url": "https://zhuanlan.zhihu.com/p/1978747476925227917"
               }
             ]
           },
@@ -1770,6 +1819,20 @@
                 "title": "全球云平台 | Cloudflare 中国官网 | Cloudflare",
                 "icon": "https://logo.clearbit.com/www.cloudflare-cn.com",
                 "url": "https://www.cloudflare-cn.com/enterprise/"
+              },
+              {
+                "type": "link",
+                "addDate": 1752302368386,
+                "title": "LangSmith",
+                "icon": "https://logo.clearbit.com/smith.langchain.com",
+                "url": "https://smith.langchain.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1773390069825,
+                "title": "Maven Repository: Search/Browse/Explore",
+                "icon": "https://logo.clearbit.com/mvnrepository.com",
+                "url": "https://mvnrepository.com/"
               }
             ]
           },
@@ -1801,6 +1864,13 @@
               },
               {
                 "type": "link",
+                "addDate": 1773367687535,
+                "title": "【介绍】⏰ 60s API - 60s API",
+                "icon": "https://logo.clearbit.com/docs.60s-api.viki.moe",
+                "url": "https://docs.60s-api.viki.moe/"
+              },
+              {
+                "type": "link",
                 "addDate": 1752067345931,
                 "title": "Tavily",
                 "icon": "https://logo.clearbit.com/www.tavily.com",
@@ -1812,6 +1882,13 @@
                 "title": "SerpApi: Google Search API",
                 "icon": "https://logo.clearbit.com/serpapi.com",
                 "url": "https://serpapi.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1773589079020,
+                "title": "OpenRouter",
+                "icon": "https://logo.clearbit.com/openrouter.ai",
+                "url": "https://openrouter.ai/"
               }
             ]
           },
@@ -1980,13 +2057,6 @@
                 "title": "AstrBot - 多平台大模型机器人基础设施",
                 "icon": "https://logo.clearbit.com/astrbot.app",
                 "url": "https://astrbot.app/"
-              },
-              {
-                "type": "link",
-                "addDate": 1773233034400,
-                "title": "NoneBot",
-                "icon": "https://logo.clearbit.com/nonebot.dev",
-                "url": "https://nonebot.dev/"
               }
             ]
           },
@@ -2192,6 +2262,13 @@
             "title": "美国身份证生成，美国人地址信息生成-世界各国身份信息、地址、信用卡生成器",
             "icon": "https://logo.clearbit.com/shenfendaquan.com",
             "url": "https://shenfendaquan.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1773320866440,
+            "title": "DownGit",
+            "icon": "https://logo.clearbit.com/minhaskamal.github.io",
+            "url": "https://minhaskamal.github.io/DownGit/#/home"
           }
         ]
       },
@@ -2222,6 +2299,13 @@
         "title": "Cloudflare Dashboard | Manage Your Account",
         "icon": "https://logo.clearbit.com/dash.cloudflare.com",
         "url": "https://dash.cloudflare.com/"
+      },
+      {
+        "type": "link",
+        "addDate": 1773730211436,
+        "title": "github/copilot-sdk: Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "icon": "https://logo.clearbit.com/github.com",
+        "url": "https://github.com/github/copilot-sdk"
       }
     ]
   }
