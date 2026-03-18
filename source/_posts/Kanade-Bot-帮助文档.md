@@ -17,6 +17,12 @@ top_img: images/card1109.webp
 
 获取帮助信息，返回此帮助文档的链接。
 
+### `/Kanade版本`
+
+别名：`/kanade_version`
+
+获取当前Kanade Bot的版本信息。
+
 # 聊天
 
 ### `@宵崎奏 <消息>`
@@ -63,13 +69,15 @@ top_img: images/card1109.webp
 
 ### `/音乐推荐 [歌单名]`
 
-别名：`听什么` `whattolisten` `what_to_listen`
+别名：`/听什么` `/whattolisten` `/what_to_listen`
 
 参数：`歌单名`可选；支持模糊匹配，若模糊匹配多个，则从匹配列表中随机选取。
 
 随机推荐一首歌。可以指定歌单名称来从特定歌单中推荐，或者不指定歌单来从所有歌单中推荐。
 
 ### `/歌单列表`
+
+别名：`/歌单` `/music_list` `/musiclist`
 
 列出所有可用的歌单名称。
 
