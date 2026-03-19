@@ -1287,7 +1287,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    - <script src="./live2d/autoload.js"></script>
+    - <script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0/dist/autoload.js"></script>
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_isc3ciaqdrl.css">
   bottom:
     # - <script src="xxxx"></script>
