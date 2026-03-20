@@ -23,6 +23,16 @@ top_img: images/card1109.webp
 
 获取当前Kanade Bot的版本信息。
 
+### `/状态`
+
+别名：`/status`
+
+对于OneBot，还可以向机器人发送戳一戳表情、双击机器人头像戳一戳来触发。
+
+NoneBot 服务器状态（CPU, Memory, Disk Usage）查看。
+
+仅超级管理员（SuperUsers）可以使用此命令。
+
 # 聊天
 
 ### `@宵崎奏 <消息>`
