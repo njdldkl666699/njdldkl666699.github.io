@@ -91,6 +91,14 @@ NoneBot 服务器状态（CPU, Memory, Disk Usage）查看。
 
 列出所有可用的歌单名称。
 
+### `/迅雷链接解析 <链接>`
+
+别名：`/thunder_parse` `/thunder_link_parse`
+
+参数：`链接`必填，要解析的迅雷链接。
+
+解析迅雷链接，返回原始下载链接。
+
 # 60s API
 
 ## 🕘 周期资讯
