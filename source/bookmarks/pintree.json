@@ -90,6 +90,13 @@
                 "title": "李同学导航 | 优质实用网站网址导航大全",
                 "icon": "https://logo.clearbit.com/www.litxdh.com",
                 "url": "https://www.litxdh.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1774105025973,
+                "title": "Agent Skills 市场 - Claude、Codex 和 ChatGPT Skills | SkillsMP",
+                "icon": "https://logo.clearbit.com/skillsmp.com",
+                "url": "https://skillsmp.com/zh"
               }
             ]
           },
@@ -160,6 +167,13 @@
                 "title": "豆包 - 字节跳动旗下 AI 智能助手",
                 "icon": "https://logo.clearbit.com/www.doubao.com",
                 "url": "https://www.doubao.com/chat"
+              },
+              {
+                "type": "link",
+                "addDate": 1775359392784,
+                "title": "ChatGPT",
+                "icon": "https://logo.clearbit.com/chatgpt.com",
+                "url": "https://chatgpt.com/"
               }
             ]
           },
@@ -352,13 +366,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1707912444695,
-                "title": "Download Minecraft PE 1.20.15 apk. Mods, Maps, Textures for MCPE",
-                "icon": "https://logo.clearbit.com/minecraftpe-mods.com",
-                "url": "https://minecraftpe-mods.com/"
-              },
-              {
-                "type": "link",
                 "addDate": 1627131553187,
                 "title": "Minecraft Tools: Tools for Minecraft",
                 "icon": "https://logo.clearbit.com/minecraft.tools",
@@ -391,6 +398,13 @@
                 "title": "首页 | 南开大学Minecraft社区",
                 "icon": "https://logo.clearbit.com/mcnku.net",
                 "url": "https://mcnku.net/"
+              },
+              {
+                "type": "link",
+                "addDate": 1775553844663,
+                "title": "Minecraft Server Status - Get the status of any Minecraft server",
+                "icon": "https://logo.clearbit.com/mcstatus.io",
+                "url": "https://mcstatus.io/"
               }
             ]
           },
@@ -501,13 +515,6 @@
           },
           {
             "type": "link",
-            "addDate": 1766300113924,
-            "title": "【FC】-FC游戏-NES-NES游戏-手机游戏-手机软件-FC游戏站",
-            "icon": "https://logo.clearbit.com/www.fcnes.net",
-            "url": "https://www.fcnes.net/"
-          },
-          {
-            "type": "link",
             "addDate": 1686813316091,
             "title": "SteamDB",
             "icon": "https://logo.clearbit.com/steamdb.info",
@@ -547,13 +554,6 @@
             "title": "植物僵尸相关下载",
             "icon": "https://logo.clearbit.com/jspvz.com",
             "url": "http://jspvz.com/download.htm"
-          },
-          {
-            "type": "link",
-            "addDate": 1716122858440,
-            "title": "资源 | PVZ同人创作论坛",
-            "icon": "https://logo.clearbit.com/www.pvz.moe",
-            "url": "https://www.pvz.moe/"
           },
           {
             "type": "link",
@@ -748,6 +748,13 @@
                 "title": "NK-I深度学习平台",
                 "icon": "https://logo.clearbit.com/10.10.1.208",
                 "url": "http://10.10.1.208:28080/#/home/frontpage"
+              },
+              {
+                "type": "link",
+                "addDate": 1773992879849,
+                "title": "Intelligent Mobile Development",
+                "icon": "https://logo.clearbit.com/g.nkugame.com",
+                "url": "https://g.nkugame.com/#/"
               }
             ]
           },
@@ -1141,10 +1148,10 @@
                   },
                   {
                     "type": "link",
-                    "addDate": 1759370845976,
-                    "title": "产品简介 - Dify Docs",
+                    "addDate": 1775998177798,
+                    "title": "介绍 - Dify Docs",
                     "icon": "https://logo.clearbit.com/docs.dify.ai",
-                    "url": "https://docs.dify.ai/zh-hans/introduction"
+                    "url": "https://docs.dify.ai/zh/use-dify/getting-started/introduction"
                   }
                 ]
               },
@@ -1224,6 +1231,13 @@
                 "title": "cppreference.cn - C++参考手册",
                 "icon": "https://logo.clearbit.com/cppreference.cn",
                 "url": "https://cppreference.cn/w/"
+              },
+              {
+                "type": "link",
+                "addDate": 1775825974551,
+                "title": "Android 移动应用开发者工具 - Android Developers",
+                "icon": "https://logo.clearbit.com/developer.android.google.cn",
+                "url": "https://developer.android.google.cn/?hl=zh-cn"
               }
             ]
           },
@@ -1432,6 +1446,13 @@
                     "title": "Jpackage-制作无需预装Java环境的Jar可执行程序 - 未读代码 - SegmentFault 思否",
                     "icon": "https://logo.clearbit.com/segmentfault.com",
                     "url": "https://segmentfault.com/a/1190000044693072"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1776171509258,
+                    "title": "IDEA 调参实战：我的 20+ 项目验证过的 vmoptions 配置（含 JVM/GC/渲染优化注释） - ERP老兵-冷溪虎山 - 博客园",
+                    "icon": "https://logo.clearbit.com/www.cnblogs.com",
+                    "url": "https://www.cnblogs.com/erp-lxhs/articles/19043991"
                   }
                 ]
               },
@@ -1567,6 +1588,13 @@
                 "title": "论文常用词汇i.e.，e.g.，etc.，viz.，et al.的前世今生 - 知乎",
                 "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
                 "url": "https://zhuanlan.zhihu.com/p/63640148"
+              },
+              {
+                "type": "link",
+                "addDate": 1776088483484,
+                "title": "Terminal里的颜色的那些事 - 知乎",
+                "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                "url": "https://zhuanlan.zhihu.com/p/184924477"
               }
             ]
           },
@@ -1651,6 +1679,20 @@
                 "title": "JSON Web Tokens - jwt.io",
                 "icon": "https://logo.clearbit.com/www.jwt.io",
                 "url": "https://www.jwt.io/"
+              },
+              {
+                "type": "link",
+                "addDate": 1776152433050,
+                "title": "Stone Badge - GitHub 仓库石墩子徽章",
+                "icon": "https://logo.clearbit.com/stone.professorlee.work",
+                "url": "https://stone.professorlee.work/"
+              },
+              {
+                "type": "link",
+                "addDate": 1773320866440,
+                "title": "DownGit",
+                "icon": "https://logo.clearbit.com/minhaskamal.github.io",
+                "url": "https://minhaskamal.github.io/DownGit/#/home"
               }
             ]
           },
@@ -1665,6 +1707,27 @@
                 "title": "Git",
                 "icon": "https://logo.clearbit.com/git-scm.com",
                 "url": "https://git-scm.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1759406710123,
+                "title": "PostgreSQL: The world's most advanced open source database",
+                "icon": "https://logo.clearbit.com/www.postgresql.org",
+                "url": "https://www.postgresql.org/"
+              },
+              {
+                "type": "link",
+                "addDate": 1764167070656,
+                "title": "Logto：为开发者打造的现代认证基础设施",
+                "icon": "https://logo.clearbit.com/logto.io",
+                "url": "https://logto.io/zh-CN/"
+              },
+              {
+                "type": "link",
+                "addDate": 1776171716506,
+                "title": "Eclipse Temurin | Adoptium",
+                "icon": "https://logo.clearbit.com/adoptium.net",
+                "url": "https://adoptium.net/zh-CN/temurin"
               },
               {
                 "type": "link",
@@ -1714,6 +1777,13 @@
                 "title": "An OpenGL library | GLFW",
                 "icon": "https://logo.clearbit.com/www.glfw.org",
                 "url": "https://www.glfw.org/"
+              },
+              {
+                "type": "link",
+                "addDate": 1758106737906,
+                "title": "Oracle 甲骨文中国 | 云应用和云平台",
+                "icon": "https://logo.clearbit.com/www.oracle.com",
+                "url": "https://www.oracle.com/cn/"
               }
             ]
           },
@@ -1791,27 +1861,6 @@
                 "title": "OpenJDK",
                 "icon": "https://logo.clearbit.com/openjdk.org",
                 "url": "https://openjdk.org/index.html"
-              },
-              {
-                "type": "link",
-                "addDate": 1758106737906,
-                "title": "Oracle 甲骨文中国 | 云应用和云平台",
-                "icon": "https://logo.clearbit.com/www.oracle.com",
-                "url": "https://www.oracle.com/cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1759406710123,
-                "title": "PostgreSQL: The world's most advanced open source database",
-                "icon": "https://logo.clearbit.com/www.postgresql.org",
-                "url": "https://www.postgresql.org/"
-              },
-              {
-                "type": "link",
-                "addDate": 1764167070656,
-                "title": "Logto：为开发者打造的现代认证基础设施",
-                "icon": "https://logo.clearbit.com/logto.io",
-                "url": "https://logto.io/zh-CN/"
               },
               {
                 "type": "link",
@@ -1894,6 +1943,13 @@
           },
           {
             "type": "link",
+            "addDate": 1775099936107,
+            "title": "GitHub · Change is constant. GitHub keeps you ahead.",
+            "icon": "https://logo.clearbit.com/github.com",
+            "url": "https://github.com/home"
+          },
+          {
+            "type": "link",
             "addDate": 1770294013703,
             "title": "可乐の博客小站 - 你好，世界！",
             "icon": "https://logo.clearbit.com/blog.njdldkl666699.dpdns.org",
@@ -1940,6 +1996,27 @@
             "title": "LINUX DO - 新的理想型社区",
             "icon": "https://logo.clearbit.com/linux.do",
             "url": "https://linux.do/"
+          },
+          {
+            "type": "link",
+            "addDate": 1775190441479,
+            "title": "GitHub加速下载代理 - 快速访问 GitHub 文件",
+            "icon": "https://logo.clearbit.com/gh-proxy.com",
+            "url": "https://gh-proxy.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1775632151382,
+            "title": "HF-Mirror",
+            "icon": "https://logo.clearbit.com/hf-mirror.com",
+            "url": "https://hf-mirror.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1776236712543,
+            "title": "Material Design 3 - Google's latest open source design system",
+            "icon": "https://logo.clearbit.com/m3.material.io",
+            "url": "https://m3.material.io/"
           }
         ]
       },
@@ -2057,6 +2134,27 @@
                 "title": "AstrBot - 多平台大模型机器人基础设施",
                 "icon": "https://logo.clearbit.com/astrbot.app",
                 "url": "https://astrbot.app/"
+              },
+              {
+                "type": "link",
+                "addDate": 1774241807484,
+                "title": "ezBookkeeping - 开源、轻量、自托管 (self-hosted) 的个人记账应用",
+                "icon": "https://logo.clearbit.com/ezbookkeeping.mayswind.net",
+                "url": "https://ezbookkeeping.mayswind.net/zh_Hans/"
+              },
+              {
+                "type": "link",
+                "addDate": 1774845109412,
+                "title": "NapCatQQ | 现代化的基于 NTQQ 的 Bot 协议端实现",
+                "icon": "https://logo.clearbit.com/napneko.github.io",
+                "url": "https://napneko.github.io/"
+              },
+              {
+                "type": "link",
+                "addDate": 1775307946679,
+                "title": "Yazi",
+                "icon": "https://logo.clearbit.com/yazi-rs.github.io",
+                "url": "https://yazi-rs.github.io/"
               }
             ]
           },
@@ -2265,10 +2363,10 @@
           },
           {
             "type": "link",
-            "addDate": 1773320866440,
-            "title": "DownGit",
-            "icon": "https://logo.clearbit.com/minhaskamal.github.io",
-            "url": "https://minhaskamal.github.io/DownGit/#/home"
+            "addDate": 1773814937401,
+            "title": "音乐搜索器 - 多站合一音乐搜索,音乐在线试听",
+            "icon": "https://logo.clearbit.com/xmsj.org",
+            "url": "http://xmsj.org/"
           }
         ]
       },
@@ -2299,13 +2397,6 @@
         "title": "Cloudflare Dashboard | Manage Your Account",
         "icon": "https://logo.clearbit.com/dash.cloudflare.com",
         "url": "https://dash.cloudflare.com/"
-      },
-      {
-        "type": "link",
-        "addDate": 1773730211436,
-        "title": "github/copilot-sdk: Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-        "icon": "https://logo.clearbit.com/github.com",
-        "url": "https://github.com/github/copilot-sdk"
       }
     ]
   }
