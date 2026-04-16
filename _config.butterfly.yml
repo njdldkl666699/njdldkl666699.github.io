@@ -19,6 +19,7 @@ menu:
     标签: /tags/ || iconfont icon-tags
     图库: /gallery-pjsk/ || iconfont icon-gallery
     试卷资料库: /exam-papers/ || iconfont icon-database
+  简历模板: /resume/ || iconfont icon-resume
   歌单列表: /playlists/ || iconfont icon-gedan
   网页收藏夹: /bookmarks/ || iconfont icon-favorite
   链接: /link/ || iconfont icon-link
@@ -342,6 +343,8 @@ footer:
               url: https://github.com/njdldkl666699/njdldkl666699.github.io
             - title: 试卷资料库仓库
               url: https://github.com/njdldkl666699/Another-NKUSE-Exams
+            - title: 简历模板仓库
+              url: https://github.com/njdldkl666699/resume
 
     - content:
         - title: 其他
@@ -1290,7 +1293,7 @@ css_prefix: true
 inject:
   head:
     - <script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0/dist/autoload.js"></script>
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_isc3ciaqdrl.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4840449_lawhxcetsa.css">
     - |
       <style>
         .kanade {
