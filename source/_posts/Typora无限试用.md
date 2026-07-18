@@ -1,12 +1,12 @@
 ---
-title: Typora 1.12.4 无限试用
+title: Typora无限试用
 date: 2025-11-07 15:28:52
 tags: [Markdown, 逆向, 前端]
 categories: [逆向]
 top_img: images/card487b.webp
 ---
 
-目前网上对 Typora 旧版本的破解或无限使用的方法大多已经失效，这里我列出这些旧版本的方法，并在最后给出一个新的方法，适用于 Typora 1.12.4 版本（目前最新版本）。未来 Typora 更新后，可能需要重新寻找新的方法。
+目前网上对 Typora 旧版本的破解或无限使用的方法大多已经失效，这里我列出这些旧版本的方法，并在最后给出一个新的方法，适用于 Typora 1.13+ 版本（目前最新版本）。未来 Typora 更新后，可能需要重新寻找新的方法。
 
 ## 旧版本方法
 
@@ -36,7 +36,7 @@ top_img: images/card487b.webp
 
 ## 新方法
 
-对于 1.12.2 版本，我进行了一些简单的逆向分析，发现可以通过修改本地存储的注册状态来实现无限试用。这个方法可能也适用于 1.10.8 ~ 1.12.1 版本，我没有测试。目前的最新版本是 1.12.4 ，依然有效。未来这种方法可能会失效。
+对于 1.12.2 版本，我进行了一些简单的逆向分析，发现可以通过修改本地存储的注册状态来实现无限试用。这个方法可能也适用于 1.10.8 ~ 1.12.1 版本，我没有测试。目前的最新版本是 1.13.6 ，依然有效。未来这种方法可能会失效。
 
 ### 逆向过程介绍
 
@@ -260,7 +260,60 @@ exit /b %EXIT_CODE%
 
 **弹窗关闭**
 
-由于不能再通过修改前端代码来关闭未注册弹窗，我们可以直接用杀毒软件的弹窗拦截等功能来关闭弹窗，或者使用其他工具脚本等。
+由于不能再通过修改前端代码来关闭未注册弹窗，我们可以直接用杀毒软件的弹窗拦截等功能来关闭弹窗，或者使用其他工具脚本等。下面贴一段在Linux上使用`wmctrl`命令关闭弹窗的示例脚本，供参考。
+
+```bash
+#!/bin/bash
+
+# 配置参数
+WINDOW_TITLE="License Info"          # 要关闭的窗口标题
+POLL_INTERVAL=1                       # 轮询间隔（秒）
+LOG_ENABLED=true                      # 是否启用日志输出
+
+# 日志函数
+log() {
+    if [ "$LOG_ENABLED" = true ]; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+    fi
+}
+
+# 关闭匹配窗口的函数
+close_license_window() {
+    # 使用 wmctrl 查找匹配的窗口
+    # -l 列出所有窗口，-G 获取几何信息，-x 显示窗口类
+    # grep -i 忽略大小写匹配
+    local windows=$(wmctrl -l -G -x 2>/dev/null | grep -i "$WINDOW_TITLE")
+    
+    if [ -n "$windows" ]; then
+        # 提取窗口ID（第一列）
+        local window_ids=$(echo "$windows" | awk '{print $1}')
+        
+        for wid in $window_ids; do
+            log "发现匹配窗口 (ID: $wid):"
+            echo "$windows" | grep "$wid" | sed 's/^/  /'
+            
+            # 尝试优雅关闭
+            if wmctrl -i -c "$wid" 2>/dev/null; then
+                log "✓ 已发送关闭请求到窗口 $wid"
+            else
+                log "✗ 关闭窗口 $wid 失败"
+            fi
+        done
+    fi
+}
+
+# 主循环
+log "开始监控窗口: \"$WINDOW_TITLE\" (轮询间隔: ${POLL_INTERVAL}秒)"
+log "按 Ctrl+C 停止脚本"
+echo ""
+
+while true; do
+    close_license_window
+    sleep "$POLL_INTERVAL"
+done
+```
+
+保存为`popup-blocker.sh`，赋予执行权限后运行即可。也可以设置为开机自启，持续在后台运行，自动关闭弹窗。
 
 ## 结语
 
