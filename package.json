@@ -11,7 +11,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "dependencies": {
     "hexo": "^8.1.2",
@@ -22,11 +22,17 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-image-link": "^0.0.6",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-kramed": "^0.1.4",
+    "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.7.0",
     "hexo-theme-landscape": "^1.0.0"
+  },
+  "allowScripts": {
+    "highlight.js@9.18.5": true,
+    "spawn-sync@1.0.15": true,
+    "hexo-util@3.3.0": true,
+    "hexo-util@4.0.0": true
   }
 }

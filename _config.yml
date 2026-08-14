@@ -56,11 +56,9 @@ prismjs:
   line_number: true
   tab_replace: ""
   exclude_languages: ["mermaid"]
-kramed:
+marked:
   gfm: true
   pedantic: false
-  sanitize: false
-  tables: true
   breaks: true
   smartLists: true
   smartypants: true
