@@ -3,7 +3,7 @@ title: Typora无限试用
 date: 2025-11-07 15:28:52
 tags: [Markdown, 逆向, 前端]
 categories: [逆向]
-top_img: images/card487b.webp
+top_img: images/card_487_trained.webp
 ---
 
 目前网上对 Typora 旧版本的破解或无限使用的方法大多已经失效，这里我列出这些旧版本的方法，并在最后给出一个新的方法，适用于 Typora 1.13+ 版本（目前最新版本）。未来 Typora 更新后，可能需要重新寻找新的方法。
@@ -283,15 +283,15 @@ close_license_window() {
     # -l 列出所有窗口，-G 获取几何信息，-x 显示窗口类
     # grep -i 忽略大小写匹配
     local windows=$(wmctrl -l -G -x 2>/dev/null | grep -i "$WINDOW_TITLE")
-    
+
     if [ -n "$windows" ]; then
         # 提取窗口ID（第一列）
         local window_ids=$(echo "$windows" | awk '{print $1}')
-        
+
         for wid in $window_ids; do
             log "发现匹配窗口 (ID: $wid):"
             echo "$windows" | grep "$wid" | sed 's/^/  /'
-            
+
             # 尝试优雅关闭
             if wmctrl -i -c "$wid" 2>/dev/null; then
                 log "✓ 已发送关闭请求到窗口 $wid"

@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate": "node ./source/exam-papers/generate-structure.js",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

@@ -2,7 +2,7 @@
 title: 📚 南开大学软件学院考试资料库
 date: 2025-11-13 16:03:57
 layout: page
-top_img: images/card1042b.webp
+top_img: images/card_1042_trained.webp
 description: 历年试卷与学习资料
 ---
 
